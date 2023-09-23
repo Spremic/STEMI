@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body id="body">
+    <header class="animate__animated">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand navLogo" href="#">
+            <img src="/static/img/logo.png" alt="Logo" />
+          </a>
+
+          <!-- Meni -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            id="openNavModal"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link x" href="#">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">O nama</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="galleryDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Galerija
+                </a>
+                <div class="dropdown-menu" aria-labelledby="galleryDropdown">
+                  <a class="dropdown-item" href="#">Stemi drvo</a>
+                  <a class="dropdown-item" href="#">Stemi metal</a>
+                  <a class="dropdown-item" href="#">Stemi tekstil</a>
+                  <a class="dropdown-item" href="#">Stemi stolarija</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="languageDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Choose Language
+                </a>
+                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <a class="dropdown-item" href="#">Srpski</a>
+                  <a class="dropdown-item" href="#">English</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact">
+      <div class="form-content">
+        <div>
+          <div class="title">
+            <h3>Mozete nas kontaktirati:</h3>
+          </div>
+
+          <div class="info">
+            <h6>Ime kompanije:</h6>
+            <p>STE-MI INTERNATIONAL</p>
+          </div>
+
+          <div class="info">
+            <h6>Adresa:</h6>
+            <p>Ivice Miladinovića 2, Babusnica</p>
+          </div>
+
+          <div class="info">
+            <h6>Mail:</h6>
+            <p>office@ste-mi.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form">
+        <form>
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Unesite ime i prezime"
+            />
+          </div>
+
+          <div>
+            <input
+              type="email"
+              id="mail"
+              name="mail"
+              placeholder="Unesite email adresu"
+            />
+          </div>
+
+          <div>
+            <textarea
+              name="text"
+              id="text"
+              
+              placeholder="Unesite poruku"
+            ></textarea>
+          </div>
+
+          <div><button type="submit" id="submit">Posalji</button></div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

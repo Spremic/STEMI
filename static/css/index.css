@@ -1,0 +1,645 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster Two", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+#openNavModal:focus {
+  box-shadow: none;
+}
+#body {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+header {
+  display: none;
+}
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: #025a91;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pc {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #025a91;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #025a91e8;
+}
+
+.welcomeSectionContainer {
+  width: 100%;
+  height: 100vh;
+}
+.dropdown div a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #33333317;
+}
+.welcomeSectionContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/static/img/highway-2025863_1920.jpg");
+  filter: grayscale(60%);
+  z-index: -1;
+}
+
+.navLogo img {
+  width: 250px;
+}
+
+.navbar-nav .nav-item {
+  margin-inline: 5px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.1rem;
+}
+
+.welcomeTXT {
+  display: none;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  top: 50%;
+  transform: translate(-0%, -50%);
+  float: left;
+  margin-left: 10px;
+  width: 98%;
+  max-width: 800px;
+  background-color: #ffffff18;
+  border-radius: 10px;
+}
+
+.welcomeTXT .container .title h1 {
+  font-size: 3.5rem;
+  color: #009dff;
+}
+
+.welcomeTXT .container .txtBottom p {
+  font-size: 1.3rem;
+  color: white;
+}
+.welcomeTopBorder,
+.welcomeBottomBorder {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.welcomeTopBorder {
+  border: 4px solid #009dff;
+}
+.welcomeBottomBorder {
+  border: 4px solid #ffa500;
+  margin-left: auto;
+}
+
+#whyUs {
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  max-width: 1700px;
+  margin-top: 100px;
+}
+.whyUsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyUsLeft,
+.whyUsRight {
+  width: 50%;
+  margin-inline: 25px;
+}
+
+.whyUsLeft {
+  height: 700px;
+}
+.whyUsLeft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+  border-radius: 12px;
+  box-shadow: 15px 15px #0088ddd8;
+}
+.whyUsRight .topTitle {
+  border-radius: 20px;
+
+  background-color: #b47500;
+}
+.whyUsRight .topTitle h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 3.8rem;
+  color: white;
+}
+
+.whyUsRight .bottomTitle h5 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-left: 17px;
+  color: #025a91;
+}
+
+.whyUsRight .txt ul li {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 27px;
+  color: #333;
+}
+
+.bold {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#future-plan {
+  margin-top: 150px;
+}
+
+.future-plan-div {
+  background-color: #c27f02;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.future-plan-div div {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.future-plan-div div h6 {
+  font-size: 1.1em;
+  color: #ffffffd2;
+}
+
+.future-plan-div div h3 {
+  font-size: 3.5rem;
+}
+
+.future-plan-div div p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.allJobsFlex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.allJobsFlex .job {
+  width: 43%;
+  margin-inline: 25px;
+  margin-top: 100px;
+}
+
+.allJobsFlex .job .img img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  filter: brightness(0.9);
+}
+
+.allJobsFlex .job .title h5 {
+  margin-top: 10px;
+  font-size: 2rem;
+  color: #025a91;
+}
+.allJobsFlex .job .list h6 {
+  font-size: 1.25rem;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.allJobsFlex .job .list ul li {
+  font-size: 0.85rem;
+  margin-top: 5px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.allJobsFlex .job .advantages {
+  display: flex;
+  align-items: center;
+}
+
+.allJobsFlex .job .advantages span {
+  display: grid;
+  place-content: center;
+  background-color: #047dc9;
+  color: white;
+  width: 140px;
+  margin-inline: 7px;
+  text-align: center;
+  font-size: 1.2rem;
+  height: 40px;
+  border-radius: 100px;
+  margin-top: 5px;
+}
+
+.allJobsFlex .job .button button {
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+  margin-top: 30px;
+  border: 2px solid #025a91;
+  border-radius: 100px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.4s;
+  color: #333;
+}
+
+.allJobsFlex .job .button button:hover {
+  background-color: #047dc9;
+  color: white;
+  border: 2px solid #047dc9;
+}
+
+#recension {
+  margin-top: 100px;
+}
+
+.recensionTitle {
+  background-color: #c27f02;
+  height: 500px;
+}
+
+.recensionTitle h3 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#caruselContainer {
+  margin-top: -390px;
+}
+
+.quoteContainer {
+  background-color: #fff;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 570px;
+  display: grid;
+  place-content: center;
+  border-radius: 10px;
+}
+
+.quoteContainer div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+}
+
+.quoteContainer div i {
+  font-size: 4rem;
+  color: #028fe7;
+  margin-bottom: 30px;
+}
+
+.quoteContainer div p {
+  color: #333;
+  font-size: 2rem;
+}
+
+.quoteContainer div p span {
+  font-size: 3.2rem;
+  color: #028fe7;
+}
+
+.quoteContainer div h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-top: 60px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+
+.quoteContainer div h6 span {
+  margin-inline: 10px;
+  margin-top: 10px;
+}
+#firstCaruosel,
+#secondCaruosel,
+#thirdCaruosel {
+  background-color: #009dff;
+}
+
+.recensionArrow {
+  color: #009dff;
+  font-size: 1.5rem;
+}
+
+footer {
+  color: white;
+  margin-top: 150px;
+  background-color: #333;
+}
+
+@media only screen and (max-width: 1279px) {
+  .whyUsRight .topTitle h3 {
+    font-size: 3.2rem;
+  }
+  .whyUsRight .bottomTitle h5 {
+    font-size: 1.4rem;
+  }
+
+  .whyUsRight .txt ul li {
+    font-size: 0.95rem;
+  }
+
+  .bold {
+    font-size: 1.2rem;
+  }
+
+  .allJobsFlex .job .img img {
+    height: 250px;
+  }
+
+  .quoteContainer div p {
+    font-size: 1.5rem;
+  }
+
+  .quoteContainer div p span {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .welcomeTXT {
+    width: 80%;
+  }
+
+  .welcomeTXT .container .title h1 {
+    font-size: 3rem;
+  }
+
+  .welcomeTXT .container .txtBottom p {
+    font-size: 1.1rem;
+  }
+  .welcomeTopBorder {
+    border: 3px solid #009dff;
+  }
+  .welcomeBottomBorder {
+    border: 3px solid #ffa500;
+  }
+
+  .whyUsContainer {
+    flex-direction: column-reverse;
+  }
+  .whyUsLeft,
+  .whyUsRight {
+    width: 98%;
+    margin-inline: 0px;
+  }
+
+  .whyUsLeft {
+    height: 0px;
+  }
+
+  .whyUsLeft img {
+    display: none;
+  }
+
+  .whyUsRight .topTitle h3 {
+    font-size: 3.1rem;
+  }
+  .whyUsRight .bottomTitle h5 {
+    font-size: 1.6rem;
+    max-width: 700px;
+  }
+
+  .whyUsRight .txt ul li {
+    font-size: 1rem;
+  }
+
+  .bold {
+    font-size: 1.3rem;
+  }
+
+  #future-plan {
+    margin-top: 70px;
+  }
+  .future-plan-div div {
+    width: 95%;
+  }
+
+  .future-plan-div div h6 {
+    font-size: 0.95rem;
+  }
+
+  .future-plan-div div h3 {
+    font-size: 2.6rem;
+  }
+  .future-plan-div div p {
+    font-size: 1rem;
+  }
+
+  .allJobsFlex .job {
+    margin-top: 70px;
+  }
+
+  .allJobsFlex .job {
+    width: 44%;
+    margin-inline: 23px;
+  }
+  .allJobsFlex .job .img img {
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .welcomeTXT {
+    margin-left: 5px;
+    width: 95%;
+  }
+
+  .welcomeTXT .container .title h1 {
+    font-size: 2.2rem;
+  }
+  .welcomeTXT .container .txtBottom p {
+    font-size: 1rem;
+    line-height: 27px;
+  }
+
+  .mobile {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .mobile span {
+    font-size: 1rem;
+    color: #025a91;
+    border-bottom: 1px solid #025a91;
+    cursor: pointer;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .whyUsRight .topTitle h3 {
+    font-size: 2.15rem;
+  }
+  .whyUsRight .bottomTitle h5 {
+    font-size: 1.3rem;
+  }
+  .whyUsRight .txt ul li {
+    font-size: 0.95rem;
+  }
+
+  .bold {
+    font-size: 1.1rem;
+  }
+
+  .future-plan-div div h3 {
+    font-size: 2rem;
+  }
+  .allJobsFlex .job {
+    width: 100%;
+  }
+  .allJobsFlex .job .advantages {
+    flex-wrap: wrap;
+  }
+  .allJobsFlex .job .advantages span {
+    width: 29%;
+    font-size: 1.1rem;
+    margin-inline: 5px;
+    height: 37px;
+  }
+
+  .quoteContainer {
+    width: 98%;
+  }
+
+  .quoteContainer div {
+    width: 95%;
+  }
+
+  .recensionArrow {
+    display: none;
+  }
+
+  .quoteContainer div i {
+    font-size: 2.7rem;
+  }
+
+  .quoteContainer div p {
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+
+  .quoteContainer div p span {
+    font-size: 1.1rem;
+  }
+
+  .quoteContainer div h6 {
+    font-size: 2rem;
+  }
+
+  .quoteContainer div h6 span {
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .navLogo img {
+    width: 180px;
+  }
+
+  .welcomeTXT {
+    width: 98%;
+    margin-left: 3px;
+    padding: 5px;
+  }
+  .welcomeTXT .container .title h1 {
+    font-size: 1.5rem;
+  }
+
+  #whyUs {
+    margin-top: 70px;
+    height: auto;
+  }
+  .whyUsRight .topTitle h3 {
+    font-size: 2rem;
+  }
+
+  .whyUsRight .bottomTitle h5 {
+    font-size: 1.2rem;
+  }
+
+  .future-plan-div div h6 {
+    font-size: 0.8rem;
+  }
+  .future-plan-div div h3 {
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  .future-plan-div div p {
+    line-height: 27px;
+  }
+  .quoteContainer div p {
+    font-size: 1rem;
+  }
+
+  .recensionTitle h3 {
+    font-size: 2.4rem;
+  }
+  .quoteContainer {
+    height: 520px;
+  }
+  .quoteContainer div h6 {
+    margin-top: 30px;
+  }
+}

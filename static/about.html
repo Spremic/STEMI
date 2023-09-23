@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body id="body">
+    <!-- Welcome messages! -->
+    <section class="welcome-container animate__animated">
+      <div class="welcome">
+        <div>
+          <h3>DOBRODOSLI U NAS SVET!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+            corporis magnam sint? Eum maiores, sequi odit pariatur iure dolorum
+            soluta reprehenderit
+          </p>
+
+          <button id="open-page-button" class="animate__animated">
+            Udji u nas svet!
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div id="page-content" class="animate__animated">
+      <header class="animate__animated">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand navLogo" href="#">
+              <img src="/static/img/logo.png" alt="Logo" />
+            </a>
+
+            <!-- Meni -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              id="openNavModal"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link x" href="#">Početna</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">O nama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kontakt</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="galleryDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Galerija
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="galleryDropdown">
+                    <a class="dropdown-item" href="#">Stemi drvo</a>
+                    <a class="dropdown-item" href="#">Stemi metal</a>
+                    <a class="dropdown-item" href="#">Stemi tekstil</a>
+                    <a class="dropdown-item" href="#">Stemi stolarija</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="languageDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Choose Language
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <a class="dropdown-item" href="#">Srpski</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section id="first-section">
+        <div class="first-section-text">
+          <h2>O NAMA</h2>
+        </div>
+      </section>
+
+      <section id="about-us">
+        <div>
+          <h3>Ko smo mi?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            quasi, aut consectetur praesentium laborum cum libero, unde placeat
+            maiores, quisquam sit? Amet esse laboriosam fugit repellendus ipsa
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, esse
+            sit porro totam modi suscipit quo ad doloribus accusantium maiores
+            eius corporis veniam atque ducimus laboriosam delectus ipsam illum
+            facere? tempora. Fugiat, eos.
+          </p>
+          <a href="#team">Nas tim</a>
+        </div>
+      </section>
+
+      <section id="history">
+        <div class="history-content">
+          <div>
+            <h6>STE-MI INTERNATIONAL</h6>
+            <div class="history-border"></div>
+            <h3>Nasa istorija</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              alias soluta quam, numquam asperiores fugiat, ullam inventore
+              dolorum, accusantium nesciunt quia consequatur rem. Quos quis
+              accusamus dolores optio dolor expedita!
+            </p>
+            <a href="#"><button>Read more</button></a>
+          </div>
+        </div>
+
+        <div class="history-image">
+          <img src="/static/img/zgrade.jpg" alt="about" />
+        </div>
+      </section>
+
+      <section id="mission">
+        <div class="mission-title">
+          <h3>Nasa misija</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni quas
+            alias iure quam laudantium facilis numquam accusantium dolorum,
+            fugiat dolor tempore voluptatem voluptatibus, optio, reprehenderit
+            in inventore ea eos officia?
+          </p>
+        </div>
+
+        <div class="mission-flex">
+          <div>
+            <span class="material-symbols-outlined"> sentiment_satisfied </span>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
+              Consequuntur
+            </p>
+          </div>
+
+          <div>
+            <span class="material-symbols-outlined"> sentiment_satisfied </span>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
+              Consequuntur
+            </p>
+          </div>
+
+          <div>
+            <span class="material-symbols-outlined"> sentiment_satisfied </span>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
+              Consequuntur
+            </p>
+          </div>
+
+          <div>
+            <span class="material-symbols-outlined"> sentiment_satisfied </span>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
+              Consequuntur
+            </p>
+          </div>
+
+          <div>
+            <span class="material-symbols-outlined"> sentiment_satisfied </span>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
+              Consequuntur
+            </p>
+          </div>
+
+          <div>
+            <span class="material-symbols-outlined"> sentiment_satisfied </span>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
+              Consequuntur
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="social-responsibilities">
+        <div class="social-image">
+          <img
+            src="/static/img/Drustvene odgovornosti.jpg"
+            alt="Drustvene odgovornosti"
+          />
+        </div>
+
+        <div class="social-responsibilities-content">
+          <div>
+            <h6>STE-MI INTERNATIONAL</h6>
+            <div class="test"></div>
+            <h3>Drustvene odgovornosti</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              alias soluta quam, numquam asperiores fugiat, ullam inventore
+              dolorum, accusantium nesciunt quia consequatur rem. Quos quis
+              accusamus dolores optio dolor expedita!
+            </p>
+            <a href="#"><button>Read more</button></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="team">
+        <div class="team-title">
+          <h3>NAS TIM</h3>
+        </div>
+        <div class="team-flex">
+          <div>
+            <div class="img">
+              <img src="/static/img/covek.jpg" alt="" />
+            </div>
+
+            <div class="name">
+              <p>Petar Peric</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="img">
+              <img src="/static/img/covek.jpg" alt="" />
+            </div>
+
+            <div class="name">
+              <p>Petar Peric</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="img">
+              <img src="/static/img/covek.jpg" alt="" />
+            </div>
+
+            <div class="name">
+              <p>Petar Peric</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="img">
+              <img src="/static/img/covek.jpg" alt="" />
+            </div>
+
+            <div class="name">
+              <p>Petar Peric</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="references-top-border"></div>
+      <section id="references">
+        <div class="references-title">
+          <h3>Reference</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ea
+            qui necessitatibus excepturi fugit harum quae maiores atque
+            reprehenderit ex molestias cum deleniti inventore debitis, eaque
+            corporis recusandae voluptate nulla.
+          </p>
+        </div>
+
+        <div class="references-img">
+          <img src="/static/img/reference-mapa.gif" alt="reference mapa" />
+        </div>
+      </section>
+
+      <div class="references-bottom-border"></div>
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Konektujte se sa nama putem drustvenih mreza:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="mailto:office@ste-mi.com" class="me-4 link-secondary">
+              <i class="fab fa-google"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/ste-mi-international/"
+              class="me-4 link-secondary"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section>
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>STE-MI
+                  INTERNATIONAL
+                </h6>
+                <p>Stalne promene na tržištu nas motivišu da budemo bolji</p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Linkovi</h6>
+                <p>
+                  <a href="#!" class="text-reset">Pocetna</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">O nama</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Kontakt</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Legal</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Drustvene mreze</h6>
+                <p>
+                  <a href="mailto:office@ste-mi.com" class="text-reset"
+                    >Gmail</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/company/ste-mi-international/"
+                    target="_blank"
+                    class="text-reset"
+                    >Linkedin</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fas fa-home me-3 text-secondary"></i> Ivice
+                  Miladinovića 2, Babusnica
+                </p>
+                <p>
+                  <a
+                    href="mailto:office@ste-mi.com"
+                    style="text-decoration: none; color: white"
+                  >
+                    <i class="fas fa-envelope me-3 text-secondary"></i>
+                    office@ste-mi.com
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="tel:+381649462420"
+                    style="text-decoration: none; color: white"
+                  >
+                    <i class="fas fa-phone me-3 text-secondary"></i> +381 64 946
+                    24 20</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.025)"
+        >
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://www.ste-mi.com/"
+            >STE-MI INTERNATIONAL</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+
+    <script src="/static/script/about.js"></script>
+  </body>
+</html>

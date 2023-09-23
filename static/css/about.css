@@ -1,0 +1,659 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#page-content {
+  display: block;
+}
+
+#openNavModal:focus {
+  box-shadow: none;
+}
+#body {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #025a91;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #025a91e8;
+}
+
+.navLogo img {
+  width: 250px;
+}
+
+.navbar-nav .nav-item {
+  margin-inline: 5px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.1rem;
+}
+
+.welcome-container {
+  width: 100%;
+  height: 100vh;
+  display: none;
+  place-items: center;
+}
+
+.welcome-container .welcome div {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+.welcome-container .welcome div h3 {
+  font-family: "Black Ops One", cursive;
+  font-size: 6.5rem;
+  line-height: 100px;
+  color: #333;
+}
+
+.welcome-container .welcome div p {
+  width: 80%;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.welcome-container .welcome div button {
+  width: 250px;
+  height: 50px;
+  border: 2px solid #f89500;
+  border-radius: 150px;
+  margin-top: 35px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: black;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+}
+
+.welcome-container .welcome div button:hover {
+  animation: headShake;
+  animation-duration: 1s;
+  background-color: #f89500;
+}
+#first-section {
+  display: flex;
+  align-items: center;
+}
+.first-section-text {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.first-section-text {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.first-section-text h2 {
+  font-size: 4.3rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Philosopher", sans-serif;
+}
+
+.first-section-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/static/img/airplane-6674689_1920.jpg);
+  filter: brightness(0.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #f0f0f0;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.about-us-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.9);
+}
+
+#about-us {
+  margin-top: 100px;
+  color: #1f1e1e;
+}
+
+#about-us div {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#about-us div h3 {
+  font-size: 3.5rem;
+}
+#about-us div p {
+  font-size: 1.1rem;
+  line-height: 33px;
+}
+
+#about-us div a {
+  font-size: 1.3rem;
+  color: #0678be;
+}
+
+#history {
+  display: flex;
+  align-items: center;
+  background-color: #025a91;
+  color: white;
+  margin-top: 100px;
+}
+.history-content {
+  width: 50%;
+}
+.history-image {
+  width: 50%;
+  height: 600px;
+}
+.history-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -0.4px;
+  clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+}
+.history-content div {
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.history-content div h6 {
+  font-size: 0.8rem;
+}
+
+.history-content .history-border {
+  margin-left: -0px;
+  border: white 1.5px solid;
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.history-content div h3 {
+  font-size: 4rem;
+}
+
+.history-content div p {
+  font-size: 1.15rem;
+  line-height: 29px;
+  margin-top: 10px;
+}
+
+.history-content div button {
+  width: 200px;
+  height: 47px;
+  border: 2px solid white;
+  background-color: #025a91;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.history-content div button:hover {
+  background-color: white;
+  color: black;
+}
+
+#mission {
+  margin-top: 100px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-title {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.mission-title h3 {
+  font-size: 4rem;
+}
+
+.mission-title p {
+  font-size: 1rem;
+  line-height: 28px;
+}
+
+.mission-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mission-flex div {
+  width: 30%;
+  margin-inline: 19px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mission-flex div span {
+  transform: scale(2.5);
+  color: #c27f02;
+}
+
+.mission-flex div h5 {
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
+
+.mission-flex div p {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+#social-responsibilities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #c27f02;
+}
+
+.social-image {
+  width: 50%;
+}
+.social-image img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  filter: brightness(0.9);
+  clip-path: polygon(0 0, 97% 0, 100% 100%, 0% 100%);
+  margin-top: 0.4px;
+}
+
+.social-responsibilities-content {
+  width: 50%;
+  color: white;
+}
+
+.social-responsibilities-content div {
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-responsibilities-content div h6 {
+  font-size: 0.8rem;
+}
+
+.social-responsibilities-content div h3 {
+  font-size: 4rem;
+}
+
+.social-responsibilities-content div p {
+  font-size: 1.15rem;
+  line-height: 29px;
+  margin-top: 10px;
+}
+
+.social-responsibilities-content div button {
+  width: 200px;
+  height: 47px;
+  border: 2px solid white;
+  background-color: #c27f02;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.social-responsibilities-content div button:hover {
+  color: black;
+  background-color: white;
+}
+
+#team {
+  margin-top: 100px;
+}
+
+.team-title h3 {
+  font-size: 4rem;
+  text-align: center;
+  color: #025a91;
+}
+.team-flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-flex div .img {
+  margin-top: 20px;
+  margin-inline: 25px;
+}
+
+.team-flex div .img img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #0678be;
+  padding: 10px;
+}
+
+.team-flex div .name p {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #025a91;
+}
+
+.references-bottom-border,
+.references-top-border {
+  margin-top: 100px;
+  width: 50%;
+
+  border-radius: 5px;
+}
+
+.references-top-border {
+  margin-left: 20px;
+  border: 2px solid #c27f02;
+  margin-bottom: 50px;
+}
+
+.references-bottom-border {
+  margin-left: auto;
+  margin-right: 20px;
+  border: 2px solid #025a91;
+  margin-top: 50px;
+}
+.references-title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 850px;
+  text-align: center;
+}
+
+.references-title h3 {
+  font-size: 3rem;
+}
+
+.references-title p {
+  font-size: 1.1rem;
+}
+
+.references-img {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.references-img img {
+  width: 1200px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+footer {
+  margin-top: 100px;
+  color: white;
+  background-color: #333;
+}
+
+@media only screen and (max-width: 1279px) {
+  .mission-flex div {
+    margin-inline: 15px;
+    width: 45%;
+  }
+  .references-img img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 12px;
+  }
+
+  .history-image img {
+    margin-top: -0.4px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .first-section-text h2 {
+    font-size: 3.7rem;
+  }
+
+  #about-us div {
+    width: 95%;
+  }
+
+  #about-us div h3 {
+    font-size: 3rem;
+  }
+  #about-us div p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  #about-us div a {
+    font-size: 1.1rem;
+  }
+
+  .history-image {
+    height: 500px;
+  }
+  .history-content div {
+    width: 95%;
+  }
+
+  .history-content div h3 {
+    font-size: 2.5rem;
+  }
+
+  .history-content div p {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+
+  .history-content div button {
+    width: 160px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+  #mission {
+    width: 95%;
+  }
+
+  .mission-title h3 {
+    font-size: 3rem;
+  }
+  .mission-flex div span {
+    transform: scale(2.3);
+  }
+
+  .mission-flex div h5 {
+    font-size: 1.3rem;
+  }
+
+  .mission-flex div p {
+    font-size: 0.9rem;
+  }
+  .social-image img {
+    height: 500px;
+  }
+
+  .social-responsibilities-content div {
+    width: 95%;
+  }
+
+  .social-responsibilities-content div h3 {
+    font-size: 2.1rem;
+  }
+
+  .social-responsibilities-content div p {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+
+  .social-responsibilities-content div button {
+    width: 160px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+  .team-title h3 {
+    font-size: 3rem;
+  }
+
+  .team-flex div .img img {
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+  }
+
+  .references-img img {
+    width: 95%;
+    height: 350px;
+    border-radius: 12px;
+  }
+
+  .references-title {
+    width: 95%;
+  }
+
+  .references-title p {
+    font-size: 1rem;
+    line-height: 29px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #about-us div {
+    width: 98%;
+  }
+
+  #about-us div h3 {
+    font-size: 3rem;
+  }
+
+  #about-us div p {
+    line-height: 28px;
+    font-size: 0.95rem;
+  }
+
+  #about-us div a {
+    font-size: 1.05rem;
+  }
+
+  #history {
+    flex-direction: column;
+  }
+
+  .history-content {
+    width: 100%;
+  }
+
+  .history-content div {
+    margin-top: 30px;
+  }
+
+  .history-content .history-border {
+    margin-top: 0px;
+    margin-left: 0px;
+    border: white 1.5px solid;
+    width: 110px;
+    margin-bottom: 15px;
+  }
+  .history-image {
+    width: 100%;
+    height: 350px;
+  }
+  .history-image img {
+    margin-top: 30px;
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  #mission {
+    width: 98%;
+  }
+
+  .mission-title h3 {
+    font-size: 3rem;
+  }
+  .mission-title p {
+    font-size: 0.95rem;
+    line-height: 28px;
+  }
+
+  .mission-flex div {
+    margin-inline: 5px;
+    width: 95%;
+  }
+
+  #social-responsibilities {
+    flex-direction: column;
+  }
+
+  .social-image {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+  }
+  .social-image img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+    height: 350px;
+    margin-bottom: 30px;
+  }
+
+  .social-responsibilities-content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .references-title h3 {
+    font-size: 2.5rem;
+  }
+
+  .references-title p {
+    font-size: 0.95rem;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .navLogo img {
+    width: 180px;
+  }
+  .first-section-text h2  {
+    font-size: 3rem;
+  }
+}
