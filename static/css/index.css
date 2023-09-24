@@ -34,7 +34,6 @@ header {
   align-items: center;
 }
 
-
 .pc {
   display: block;
 }
@@ -160,7 +159,7 @@ header {
 .whyUsRight .topTitle {
   border-radius: 20px;
 
-  background-color: #b47500;
+  background-color: #ff4d01;
 }
 .whyUsRight .topTitle h3 {
   padding-top: 10px;
