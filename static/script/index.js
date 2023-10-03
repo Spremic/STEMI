@@ -7,7 +7,7 @@ let loaderInterval = setInterval(() => {
   header.style.display = "block";
   welcomeTXT.style.display = "block";
   loader.classList.add("animate__fadeOut");
-  body.style.overflowY = "auto"
+  body.style.overflowY = "auto";
   clearInterval(loaderInterval);
 }, 2000);
 
