@@ -54,13 +54,19 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link x" href="/">Početna</a>
+                <a class="nav-link " href="/">
+                  <%= jsonPodaci.navPocetna %>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">O nama</a>
+                <a class="nav-link" href="/about">
+                  <%= jsonPodaci.navAbout %>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Kontakt</a>
+                <a class="nav-link active" href="#">
+                  <%= jsonPodaci.navKontakt %>
+                </a>
               </li>
 
               <li class="nav-item dropdown">
@@ -73,13 +79,21 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Galerija
+                  <%= jsonPodaci.navDivizije %>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="galleryDropdown">
-                  <a class="dropdown-item" href="/stolarija">Stemi stolarija</a>
-                  <a class="dropdown-item" href="/metal">Stemi metal</a>
-                  <a class="dropdown-item" href="/tekstil">Stemi tekstil</a>
-                  <a class="dropdown-item" href="/tekstil">Stemi drvo</a>
+                  <a class="dropdown-item" href="/stolarija">
+                    <%= jsonPodaci.navStolarija %>
+                  </a>
+                  <a class="dropdown-item" href="/metal">
+                    <%= jsonPodaci.navMetal %>
+                  </a>
+                  <a class="dropdown-item" href="/tekstil">
+                    <%= jsonPodaci.navTekstil %>
+                  </a>
+                  <a class="dropdown-item" href="/drvo">
+                    <%= jsonPodaci.navDrvo %>
+                  </a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -94,7 +108,7 @@
                 >
                   Choose Language
                 </a>
-                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <div class="dropdown-menu language-menu" aria-labelledby="languageDropdown">
                   <a class="dropdown-item">Serbian</a>
                   <a class="dropdown-item">English</a>
                   <a class="dropdown-item">German</a>
@@ -111,16 +125,16 @@
       <div class="form-content">
         <div>
           <div class="title">
-            <h3>Mozete nas kontaktirati:</h3>
+            <h3><%= jsonPodaci.title %></h3>
           </div>
 
           <div class="info">
-            <h6>Ime kompanije:</h6>
+            <h6><%= jsonPodaci.companyName %></h6>
             <p>STE-MI INTERNATIONAL</p>
           </div>
 
           <div class="info">
-            <h6>Adresa:</h6>
+            <h6><%= jsonPodaci.addres %></h6>
             <p>Ivice Miladinovića 2, Babusnica</p>
           </div>
 
@@ -138,7 +152,7 @@
               type="text"
               name="name"
               id="name"
-              placeholder="Unesite ime i prezime"
+              placeholder="<%= jsonPodaci.namePlaceholder %>"
             />
           </div>
 
@@ -147,7 +161,7 @@
               type="email"
               id="mail"
               name="mail"
-              placeholder="Unesite email adresu"
+              placeholder="<%= jsonPodaci.mailPlaceholder %>"
             />
           </div>
 
@@ -155,13 +169,17 @@
             <textarea
               name="text"
               id="text"
-              placeholder="Unesite poruku"
+              placeholder="<%= jsonPodaci.messagePlaceholder %>"
             ></textarea>
           </div>
 
-          <div><button type="submit" id="submit">Posalji</button></div>
+          <div>
+            <button type="submit" id="submit"><%= jsonPodaci.button %></button>
+          </div>
         </form>
       </div>
     </section>
+
+    <script src="/language.js"></script>
   </body>
 </html>

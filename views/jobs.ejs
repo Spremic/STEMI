@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/galery.css" />
+    <style>
+      #page-title div::before {
+        background-image: url("<%= jsonPodaci.backgroundImage %>");
+      }
+    </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -54,13 +59,19 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="/">Početna</a>
+                <a class="nav-link" href="/">
+                  <%= jsonPodaci.navPocetna %>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">O nama</a>
+                <a class="nav-link" href="/about">
+                  <%= jsonPodaci.navAbout %>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact">Kontakt</a>
+                <a class="nav-link" href="/contact">
+                  <%= jsonPodaci.navKontakt %>
+                </a>
               </li>
 
               <li class="nav-item dropdown">
@@ -73,13 +84,21 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Divizije
+                  <%= jsonPodaci.navDivizije %>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="galleryDropdown">
-                  <a class="dropdown-item" href="/stolarija">Stemi stolarija</a>
-                  <a class="dropdown-item" href="/metal">Stemi metal</a>
-                  <a class="dropdown-item" href="/tekstil">Stemi tekstil</a>
-                  <a class="dropdown-item" href="/tekstil">Stemi drvo</a>
+                  <a class="dropdown-item" href="/stolarija">
+                    <%= jsonPodaci.navStolarija %>
+                  </a>
+                  <a class="dropdown-item" href="/metal">
+                    <%= jsonPodaci.navMetal %>
+                  </a>
+                  <a class="dropdown-item" href="/tekstil">
+                    <%= jsonPodaci.navTekstil %>
+                  </a>
+                  <a class="dropdown-item" href="/drvo">
+                    <%= jsonPodaci.navDrvo %>
+                  </a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -94,7 +113,7 @@
                 >
                   Choose Language
                 </a>
-                <div class="dropdown-menu language-dropdown" aria-labelledby="languageDropdown">
+                <div class="dropdown-menu language-menu" aria-labelledby="languageDropdown">
                   <a class="dropdown-item">Serbian</a>
                   <a class="dropdown-item">English</a>
                   <a class="dropdown-item">German</a>

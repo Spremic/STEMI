@@ -115,7 +115,7 @@
                   >
                     Choose Language
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <div class="dropdown-menu language-menu" aria-labelledby="languageDropdown">
                     <a class="dropdown-item">Serbian</a>
                     <a class="dropdown-item">English</a>
                     <a class="dropdown-item">German</a>
@@ -200,7 +200,7 @@
           </div>
 
           <div class="title">
-            <h5>Stemi stolarija</h5>
+            <h5><%= jsonPodaci.stolarijaTitle %></h5>
           </div>
 
           <div class="list">
@@ -213,9 +213,9 @@
           </div>
 
           <div class="advantages">
-            <span title="aa">Eco</span>
-            <span title="aa">Nesto</span>
-            <span title="aa">Nesto</span>
+            <span title="Recycled Materials">RM</span>
+            <span title="Low VOC">LVOC</span>
+            <span title="Sustainable Materials">SM</span>
           </div>
 
           <div class="button">
@@ -231,7 +231,7 @@
           </div>
 
           <div class="title">
-            <h5>Stemi metal</h5>
+            <h5><%= jsonPodaci.metalTitle %></h5>
           </div>
 
           <div class="list">
@@ -244,10 +244,9 @@
           </div>
 
           <div class="advantages">
-            <span title="aa">Eco</span>
-            <span title="aa">Nesto</span>
-            <span title="aa">Nesto</span>
-            <span title="aa">Nestsssso</span>
+            <span title="Recycled Materials">RM</span>
+            <span title="Low VOC">LVOC</span>
+            <span title="Sustainable Materials">SM</span>
           </div>
 
           <div class="button">
@@ -261,7 +260,7 @@
           </div>
 
           <div class="title">
-            <h5>Stemi tekstil</h5>
+            <h5><%= jsonPodaci.tekstilTitle %></h5>
           </div>
 
           <div class="list">
@@ -274,9 +273,8 @@
           </div>
 
           <div class="advantages">
-            <span title="aa">Eco</span>
-            <span title="aa">Nesto</span>
-            <span title="aa">Nesto</span>
+            <span title="Low-Impact Textiles">LIT</span>
+            <span title="Natural fabric">NB</span>
           </div>
 
           <div class="button">
@@ -290,7 +288,7 @@
           </div>
 
           <div class="title">
-            <h5>Stemi drvo</h5>
+            <h5><%= jsonPodaci.drvoTitle %></h5>
           </div>
 
           <div class="list">
@@ -303,9 +301,8 @@
           </div>
 
           <div class="advantages">
-            <span title="aa">Eco</span>
-            <span title="aa">Nesto</span>
-            <span title="aa">Nesto</span>
+            <span title="Sustainable Resource Use">SRU</span>
+            <span title="Low-Impact Wood">LIW</span>
           </div>
 
           <div class="button">
@@ -450,7 +447,7 @@
                 <i class="fas fa-gem me-3 text-secondary"></i>STE-MI
                 INTERNATIONAL
               </h6>
-              <p> <%= jsonPodaci.footerSlogan %></p>
+              <p><%= jsonPodaci.footerSlogan %></p>
             </div>
             <!-- Grid column -->
 
@@ -512,15 +509,6 @@
                   office@ste-mi.com
                 </a>
               </p>
-              <p>
-                <a
-                  href="tel:+381649462420"
-                  style="text-decoration: none; color: white"
-                >
-                  <i class="fas fa-phone me-3 text-secondary"></i> +381 64 946
-                  24 20</a
-                >
-              </p>
             </div>
             <!-- Grid column -->
           </div>
@@ -543,6 +531,6 @@
     </footer>
     <!-- Footer -->
 
-    <script src="/index.js"></script>
+    <script src="/language.js"></script>
   </body>
 </html>

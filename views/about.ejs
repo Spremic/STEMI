@@ -28,22 +28,6 @@
   </head>
   <body id="body">
     <!-- Welcome messages! -->
-    <section class="welcome-container animate__animated">
-      <div class="welcome">
-        <div>
-          <h3>DOBRODOSLI U NAS SVET!</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-            corporis magnam sint? Eum maiores, sequi odit pariatur iure dolorum
-            soluta reprehenderit
-          </p>
-
-          <button id="open-page-button" class="animate__animated">
-            Udji u nas svet!
-          </button>
-        </div>
-      </div>
-    </section>
 
     <div id="page-content" class="animate__animated">
       <header class="animate__animated">
@@ -73,13 +57,19 @@
             >
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link x" href="/">Početna</a>
+                  <a class="nav-link" href="/">
+                    <%= jsonPodaci.navPocetna %>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">O nama</a>
+                  <a class="nav-link active" href="#">
+                    <%= jsonPodaci.navAbout %>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/contact">Kontakt</a>
+                  <a class="nav-link" href="/contact">
+                    <%= jsonPodaci.navKontakt %>
+                  </a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -92,15 +82,21 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Galerija
+                    <%= jsonPodaci.navDivizije %>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="galleryDropdown">
-                    <a class="dropdown-item" href="/stolarija"
-                      >Stemi stolarija</a
-                    >
-                    <a class="dropdown-item" href="/metal">Stemi metal</a>
-                    <a class="dropdown-item" href="/tekstil">Stemi tekstil</a>
-                    <a class="dropdown-item" href="/tekstil">Stemi drvo</a>
+                    <a class="dropdown-item" href="/stolarija">
+                      <%= jsonPodaci.navStolarija %>
+                    </a>
+                    <a class="dropdown-item" href="/metal">
+                      <%= jsonPodaci.navMetal %>
+                    </a>
+                    <a class="dropdown-item" href="/tekstil">
+                      <%= jsonPodaci.navTekstil %>
+                    </a>
+                    <a class="dropdown-item" href="/drvo">
+                      <%= jsonPodaci.navDrvo %>
+                    </a>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -115,7 +111,7 @@
                   >
                     Choose Language
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <div class="dropdown-menu language-menu" aria-labelledby="languageDropdown">
                     <a class="dropdown-item">Serbian</a>
                     <a class="dropdown-item">English</a>
                     <a class="dropdown-item">German</a>
@@ -130,23 +126,15 @@
 
       <section id="first-section">
         <div class="first-section-text">
-          <h2>O NAMA</h2>
+          <h2><%= jsonPodaci.pageName %></h2>
         </div>
       </section>
 
       <section id="about-us">
         <div>
-          <h3>Ko smo mi?</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            quasi, aut consectetur praesentium laborum cum libero, unde placeat
-            maiores, quisquam sit? Amet esse laboriosam fugit repellendus ipsa
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, esse
-            sit porro totam modi suscipit quo ad doloribus accusantium maiores
-            eius corporis veniam atque ducimus laboriosam delectus ipsam illum
-            facere? tempora. Fugiat, eos.
-          </p>
-          <a href="#team">Nas tim</a>
+          <h3><%= jsonPodaci.aboutUsTitle %></h3>
+          <p><%= jsonPodaci.aboutUsText %></p>
+          <a href="#team"> <%= jsonPodaci.aboutUsBtn %></a>
         </div>
       </section>
 
@@ -155,14 +143,9 @@
           <div>
             <h6>STE-MI INTERNATIONAL</h6>
             <div class="history-border"></div>
-            <h3>Nasa istorija</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-              alias soluta quam, numquam asperiores fugiat, ullam inventore
-              dolorum, accusantium nesciunt quia consequatur rem. Quos quis
-              accusamus dolores optio dolor expedita!
-            </p>
-            <a href="#"><button>Read more</button></a>
+            <h3><%= jsonPodaci.historyTitle %></h3>
+            <p><%= jsonPodaci.historyText %></p>
+            <a href="/contact"><button><%= jsonPodaci.contactBtn %></button></a>
           </div>
         </div>
 
@@ -173,74 +156,27 @@
 
       <section id="mission">
         <div class="mission-title">
-          <h3>Nasa misija</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni quas
-            alias iure quam laudantium facilis numquam accusantium dolorum,
-            fugiat dolor tempore voluptatem voluptatibus, optio, reprehenderit
-            in inventore ea eos officia?
-          </p>
+          <h3><%= jsonPodaci.missionTitle %></h3>
+          <p><%= jsonPodaci.missionText %></p>
         </div>
 
         <div class="mission-flex">
           <div>
-            <span class="material-symbols-outlined"> sentiment_satisfied </span>
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
-              Consequuntur
-            </p>
+            <span class="material-symbols-outlined"> paid </span>
+            <h5><%= jsonPodaci.missionTitleString[0] %></h5>
+            <p><%= jsonPodaci.missionTextString[0] %></p>
           </div>
 
           <div>
-            <span class="material-symbols-outlined"> sentiment_satisfied </span>
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
-              Consequuntur
-            </p>
+            <span class="material-symbols-outlined"> handshake </span>
+            <h5><%= jsonPodaci.missionTitleString[1] %></h5>
+            <p><%= jsonPodaci.missionTextString[1] %></p>
           </div>
 
           <div>
-            <span class="material-symbols-outlined"> sentiment_satisfied </span>
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
-              Consequuntur
-            </p>
-          </div>
-
-          <div>
-            <span class="material-symbols-outlined"> sentiment_satisfied </span>
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
-              Consequuntur
-            </p>
-          </div>
-
-          <div>
-            <span class="material-symbols-outlined"> sentiment_satisfied </span>
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
-              Consequuntur
-            </p>
-          </div>
-
-          <div>
-            <span class="material-symbols-outlined"> sentiment_satisfied </span>
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              dolorum ducimus. Odit dolorem magni excepturi magnam eos.
-              Consequuntur
-            </p>
+            <span class="material-symbols-outlined"> eco </span>
+            <h5><%= jsonPodaci.missionTitleString[2] %></h5>
+            <p><%= jsonPodaci.missionTextString[2] %></p>
           </div>
         </div>
       </section>
@@ -253,31 +189,25 @@
         <div class="social-responsibilities-content">
           <div>
             <h6>STE-MI INTERNATIONAL</h6>
-            <div class="test"></div>
-            <h3>Drustvene odgovornosti</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-              alias soluta quam, numquam asperiores fugiat, ullam inventore
-              dolorum, accusantium nesciunt quia consequatur rem. Quos quis
-              accusamus dolores optio dolor expedita!
-            </p>
-            <a href="#"><button>Read more</button></a>
+            <h3><%= jsonPodaci.odgovornostiTitle %></h3>
+            <p><%= jsonPodaci.odgovornostiText %></p>
+            <a href="/contact"><button><%= jsonPodaci.contactBtn %></button></a>
           </div>
         </div>
       </section>
 
       <section id="team">
         <div class="team-title">
-          <h3>NAS TIM</h3>
+          <h3><%= jsonPodaci.team %></h3>
         </div>
         <div class="team-flex">
           <div>
             <div class="img">
-              <img src="/covek.jpg" alt="Dusan" />
+              <img src="/dusan.jpg" alt="Dusan" />
             </div>
 
             <div class="name">
-              <p>Petar Peric</p>
+              <p>Dušan Mijalković</p>
             </div>
           </div>
         </div>
@@ -286,13 +216,8 @@
       <div class="references-top-border"></div>
       <section id="references">
         <div class="references-title">
-          <h3>Reference</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ea
-            qui necessitatibus excepturi fugit harum quae maiores atque
-            reprehenderit ex molestias cum deleniti inventore debitis, eaque
-            corporis recusandae voluptate nulla.
-          </p>
+          <h3><%= jsonPodaci.referenceTitle %></h3>
+          <p><%= jsonPodaci.referenceText %></p>
         </div>
 
         <div class="references-img">
@@ -310,7 +235,7 @@
         >
           <!-- Left -->
           <div class="me-5 d-none d-lg-block">
-            <span>Konektujte se sa nama putem drustvenih mreza:</span>
+            <span> <%= jsonPodaci.footerTitle %> </span>
           </div>
           <!-- Left -->
 
@@ -343,14 +268,14 @@
                   <i class="fas fa-gem me-3 text-secondary"></i>STE-MI
                   INTERNATIONAL
                 </h6>
-                <p>Stalne promene na tržištu nas motivišu da budemo bolji</p>
+                <p><%= jsonPodaci.footerSlogan %></p>
               </div>
               <!-- Grid column -->
 
               <!-- Grid column -->
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Linkovi</h6>
+                <h6 class="text-uppercase fw-bold mb-4">LINKS</h6>
                 <p>
                   <a href="/" class="text-reset">Pocetna</a>
                 </p>
@@ -369,7 +294,7 @@
               <!-- Grid column -->
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Drustvene mreze</h6>
+                <h6 class="text-uppercase fw-bold mb-4">SOCIAL MEDIA</h6>
                 <p>
                   <a href="mailto:office@ste-mi.com" class="text-reset"
                     >Gmail</a
@@ -426,6 +351,6 @@
       <!-- Footer -->
     </div>
 
-    <script src="/static/script/about.js"></script>
+    <script src="/language.js"></script>
   </body>
 </html>

@@ -1,22 +1,10 @@
-let languageBtn = document.querySelectorAll(".language-dropdown a");
+let languageBtn = document.querySelectorAll(".language-menu a");
 
-window.addEventListener("load", async () => {
-  let language = localStorage.getItem("language");
-  console.log(language);
-  try {
-    const result = await fetch("./api/language", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ language }),
-    });
+document.addEventListener("DOMContentLoaded", async () => {
+  // document.cookie = "language=srb; expires=" + new Date(Date.now() + 100 * 365 * 24 * 60 * 60 * 1000).toUTCString() + "; path=/";
 
-    const data = await result.json();
-    console.log(data);
-  } catch (error) {
-    console.error(error);
-  }
+// OVO CES MORATI NA BEK DELU
+
 });
 
 const languageMap = {
@@ -30,8 +18,17 @@ languageBtn.forEach((e) => {
   e.addEventListener("click", async (event) => {
     let targetEl = event.target.innerHTML;
     let language = languageMap[targetEl];
+    console.log(language)
+    document.cookie =
+      "language=" +
+      language +
+      "; expires=" +
+      new Date(Date.now() + 100 * 365 * 24 * 60 * 60 * 1000).toUTCString() +
+      "; path=/";
 
-    localStorage.setItem("language", language);
-    location.reload()
+
+
+
+    location.reload();
   });
 });

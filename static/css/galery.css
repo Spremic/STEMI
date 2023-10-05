@@ -58,17 +58,7 @@
   padding-bottom: 10px;
   border-bottom: 2px solid #33333317;
 }
-.welcomeSectionContainer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("/static/img/highway-2025863_1920.jpg");
-  filter: grayscale(60%);
-  z-index: -1;
-}
+
 
 .navLogo img {
   width: 250px;
@@ -110,7 +100,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(/static/img/delatnosti/stolarija/architecture-1719526_1920.jpg);
   filter: brightness(0.6);
   background-size: cover;
   background-repeat: no-repeat;
