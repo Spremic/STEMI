@@ -5,19 +5,18 @@ const nodemailer = require("nodemailer");
 const ejs = require("ejs");
 const fs = require("fs");
 const cookieParser = require("cookie-parser");
-
 const port = process.env.PORT || 3000;
 const app = express();
 
-let test;
 app.use(express.static(__dirname + "/static/css"));
 app.use(express.static(__dirname + "/static/script"));
 app.use(express.static(__dirname + "/static/img"));
 app.use(express.static(__dirname + "/static/json/jobs"));
-app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/static"));
+app.set("views", path.join(__dirname, "views"));
 app.use(bodyParser.json());
 app.use(cookieParser());
+app.set("view engine", "ejs");
 
 const stolarija = __dirname + "/static/json/jobs/stolarija.json";
 const tekstil = __dirname + "/static/json/jobs/tekstil.json";
@@ -47,41 +46,38 @@ function ejsFeedBack(document, filePath, res, selectLanguage) {
 }
 
 app.get("/metal", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
+  const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("jobs", metal, res, selectLanguage);
 });
 
 app.get("/about", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
+  const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("about", about, res, selectLanguage);
 });
 
 app.get("/contact", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
+  const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("contact", contact, res, selectLanguage);
 });
 
-app.get("/metal", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
-  ejsFeedBack("jobs", metal, res, selectLanguage);
-});
+
 
 app.get("/drvo", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
+  const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("jobs", drvo, res, selectLanguage);
 });
 app.get("/tekstil", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
+  const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("jobs", tekstil, res, selectLanguage);
 });
 
 app.get("/stolarija", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
+  const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("jobs", stolarija, res, selectLanguage);
 });
 
 app.get("/", (req, res) => {
-  const selectLanguage = req.cookies.language || 'srb';
+  const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("index", index, res, selectLanguage);
 });
 
