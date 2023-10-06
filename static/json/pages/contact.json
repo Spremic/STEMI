@@ -8,6 +8,8 @@
     "navMetal": "STE-MI metal",
     "navTekstil": "STE-MI tekstil",
     "navDrvo": "STE-MI drvo",
+    "navKamen": "STE-MI kamen",
+
     "title": "Mozete nas kontaktirati:",
     "companyName": "Ime kompanije:",
     "addres": "Adresa:",
@@ -31,6 +33,8 @@
     "navMetal": "STE-MI Metal",
     "navTekstil": "STE-MI Textile",
     "navDrvo": "STE-MI Wood",
+    "navKamen": "STE-MI Stone",
+
     "title": "You can contact us at:",
     "companyName": "Company Name:",
     "address": "Address:",
@@ -54,6 +58,8 @@
     "navMetal": "STE-MI Metall",
     "navTekstil": "STE-MI Textil",
     "navDrvo": "STE-MI Holz",
+    "navKamen": "STE-MI Stein",
+
     "title": "Sie können uns kontaktieren unter:",
     "companyName": "Firmenname:",
     "address": "Adresse:",
@@ -77,6 +83,8 @@
     "navMetal": "Métal STE-MI",
     "navTekstil": "Textile STE-MI",
     "navDrvo": "Bois STE-MI",
+    "navKamen": "STE-MI Pierre",
+
     "title": "Vous pouvez nous contacter à :",
     "companyName": "Nom de l'entreprise :",
     "address": "Adresse :",

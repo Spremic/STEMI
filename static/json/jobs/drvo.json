@@ -8,6 +8,8 @@
     "navMetal": "STE-MI metal",
     "navTekstil": "STE-MI tekstil",
     "navDrvo": "STE-MI drvo",
+    "navKamen": "STE-MI kamen",
+
     "backgroundImage": "/delatnosti/drvo/drvoBackground.jpg",
     "firstTitle": "STE-MI DRVO",
     "firstText": "STE-MI Wood je kompanija sa odlicnim izvorima snabdevanja zahvaljujući odličnoj geografskoj poziciji i obilju šuma, što nam omogućava da pružimo izvanrednu rezanu građu sa FSC sertifikatom - znakom naše predanosti održivom poslovanju. Naša Geografska Prednost: Smješteni u srcu bogatih šuma, naša geografska pozicija nam omogućava pristup izuzetnom drvnom materijalu. Održivost je ključna vrednost koja nas vodi, a FSC sertifikat garantuje da naša proizvodnja podržava očuvanje šuma i biodiverziteta.",
@@ -23,7 +25,10 @@
       "/delatnosti/drvo/6.jpg",
       "/delatnosti/drvo/8.jpg",
       "/delatnosti/drvo/9.jpg"
-    ]
+    ],
+
+    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
+    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
   },
 
   "eng": {
@@ -35,6 +40,8 @@
     "navMetal": "STE-MI Metal",
     "navTekstil": "STE-MI Textile",
     "navDrvo": "STE-MI Wood",
+    "navKamen": "STE-MI Stone",
+
     "backgroundImage": "/delatnosti/drvo/drvoBackground.jpg",
     "firstTitle": "STE-MI WOOD",
     "firstText": "STE-MI Wood is a company with excellent supply sources thanks to its outstanding geographical location and abundant forests, allowing us to provide outstanding FSC-certified timber - a symbol of our commitment to sustainable business practices. Our Geographic Advantage: Situated in the heart of rich forests, our geographical position grants us access to exceptional wood materials. Sustainability is a core value that guides us, and the FSC certification ensures that our production supports forest conservation and biodiversity.    ",
@@ -50,7 +57,10 @@
       "/delatnosti/drvo/6.jpg",
       "/delatnosti/drvo/8.jpg",
       "/delatnosti/drvo/9.jpg"
-    ]
+    ],
+
+    "footerTitle": "Connect with us on social media:",
+    "footerSlogan": "Continuous changes in the market motivate us to be better."
   },
 
   "ger": {
@@ -62,6 +72,8 @@
     "navMetal": "STE-MI Metall",
     "navTekstil": "STE-MI Textil",
     "navDrvo": "STE-MI Holz",
+    "navKamen": "STE-MI Stein",
+
     "backgroundImage": "/delatnosti/drvo/drvoBackground.jpg",
     "firstTitle": "STE-MI HOLZ",
     "firstText": "STE-MI Holz ist ein Unternehmen mit ausgezeichneten Beschaffungsquellen, dank seiner hervorragenden geografischen Lage und reichen Wäldern. Dies ermöglicht uns, erstklassiges Holz mit FSC-Zertifikat anzubieten - ein Zeichen unserer Verpflichtung zu nachhaltigem Geschäft. Unser geografischer Vorteil: Inmitten reicher Wälder gelegen, ermöglicht uns unsere geografische Lage den Zugang zu außergewöhnlichem Holzmaterial. Nachhaltigkeit ist ein zentraler Wert, der uns leitet, und das FSC-Zertifikat garantiert, dass unsere Produktion den Erhalt der Wälder und der Biodiversität unterstützt.",
@@ -77,7 +89,9 @@
       "/delatnosti/drvo/6.jpg",
       "/delatnosti/drvo/8.jpg",
       "/delatnosti/drvo/9.jpg"
-    ]
+    ],
+    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
+    "footerSlogan": "Die ständigen Veränderungen auf dem Markt motivieren uns, besser zu sein."
   },
 
   "fr": {
@@ -89,6 +103,8 @@
     "navMetal": "Métal STE-MI",
     "navTekstil": "Textile STE-MI",
     "navDrvo": "Bois STE-MI",
+    "navKamen": "STE-MI Pierre",
+
     "backgroundImage": "/delatnosti/drvo/drvoBackground.jpg",
     "firstTitle": "STE-MI BOIS",
     "firstText": "STE-MI Bois est une entreprise disposant de sources d'approvisionnement exceptionnelles grâce à son emplacement géographique privilégié et à l'abondance de ses forêts, ce qui nous permet de fournir du bois découpé de qualité exceptionnelle avec la certification FSC - un signe de notre engagement envers une exploitation durable. Notre avantage géographique : Situés au cœur de forêts riches, notre emplacement géographique nous permet d'accéder à un matériau bois exceptionnel. La durabilité est une valeur clé qui nous guide, et la certification FSC garantit que notre production soutient la préservation des forêts et de la biodiversité.",
@@ -104,6 +120,9 @@
       "/delatnosti/drvo/6.jpg",
       "/delatnosti/drvo/8.jpg",
       "/delatnosti/drvo/9.jpg"
-    ]
+    ],
+
+    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
+    "footerSlogan": "Les changements constants sur le marché nous poussent à être meilleurs."
   }
 }

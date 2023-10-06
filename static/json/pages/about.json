@@ -8,6 +8,8 @@
     "navMetal": "STE-MI metal",
     "navTekstil": "STE-MI tekstil",
     "navDrvo": "STE-MI drvo",
+    "navKamen": "STE-MI kamen",
+
     "pageName": "O NAMA",
     "aboutUsTitle": "Ko smo mi?",
     "aboutUsText": "Mi smo tim koji je kontinuirano angažovan i spreman da vam pruži podršku. Naša ekspertiza obuhvata različite oblasti kao što su stolarstvo, metalurgija, tekstilna industrija i obrada drveta. Naš cilj je da ispunimo sve potrebe naših klijenata u svakoj od ovih delatnosti i pružimo im najviši nivo kvaliteta. Zahvaljujući dugogodišnjem pozitivnom ugledu, stigli smo do ove tačke i izuzetno smo zahvalni na vašoj podršci.",
@@ -32,7 +34,6 @@
     "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
   },
 
-  
   "eng": {
     "navPocetna": "Home",
     "navAbout": "About Us",
@@ -42,6 +43,8 @@
     "navMetal": "STE-MI Metal",
     "navTekstil": "STE-MI Textile",
     "navDrvo": "STE-MI Wood",
+    "navKamen": "STE-MI Stone",
+
     "pageName": "ABOUT US",
     "aboutUsTitle": "Who We Are",
     "aboutUsText": "We are a team that is continuously engaged and ready to support you. Our expertise covers various areas such as carpentry, metallurgy, the textile industry, and wood processing. Our goal is to meet all the needs of our clients in each of these industries and provide them with the highest quality. Thanks to our long-standing positive reputation, we have reached this point, and we are extremely grateful for your support.",
@@ -75,6 +78,8 @@
     "navMetal": "STE-MI Metall",
     "navTekstil": "STE-MI Textil",
     "navDrvo": "STE-MI Holz",
+    "navKamen": "STE-MI Stein",
+
     "pageName": "ÜBER UNS",
     "aboutUsTitle": "Wer wir sind",
     "aboutUsText": "Wir sind ein Team, das kontinuierlich engagiert ist und bereit ist, Sie zu unterstützen. Unsere Expertise umfasst verschiedene Bereiche wie Tischlerei, Metallurgie, die Textilindustrie und die Holzverarbeitung. Unser Ziel ist es, alle Bedürfnisse unserer Kunden in diesen Branchen zu erfüllen und ihnen höchste Qualität zu bieten. Dank unseres langjährigen positiven Rufes haben wir diesen Punkt erreicht, und wir sind äußerst dankbar für Ihre Unterstützung.",
@@ -108,6 +113,8 @@
     "navMetal": "Métallerie STE-MI",
     "navTekstil": "Textile STE-MI",
     "navDrvo": "Bois STE-MI",
+    "navKamen": "STE-MI Pierre",
+
     "pageName": "À PROPOS DE NOUS",
     "aboutUsTitle": "Qui sommes-nous",
     "aboutUsText": "Nous sommes une équipe constamment engagée et prête à vous soutenir. Notre expertise couvre divers domaines tels que la menuiserie, la métallurgie, l'industrie textile et la transformation du bois. Notre objectif est de répondre à tous les besoins de nos clients dans chacun de ces secteurs et de leur fournir la meilleure qualité possible. Grâce à notre réputation positive de longue date, nous en sommes arrivés là, et nous vous en sommes extrêmement reconnaissants pour votre soutien.",

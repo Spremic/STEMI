@@ -8,16 +8,13 @@
   font-family: "Roboto", sans-serif;
 }
 
-#openNavModal:focus {
-  box-shadow: none;
-}
-
 #body {
   height: 100%;
   margin: 0;
   padding: 0;
   overflow-y: none;
   overflow-x: none;
+  background-color: #f0f0f0;
 }
 
 .loading-container {
@@ -50,6 +47,10 @@
     transform: scale(1.2);
     opacity: 1;
   }
+}
+
+#openNavModal:focus {
+  box-shadow: none;
 }
 
 .pc {

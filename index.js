@@ -22,6 +22,8 @@ const stolarija = __dirname + "/static/json/jobs/stolarija.json";
 const tekstil = __dirname + "/static/json/jobs/tekstil.json";
 const drvo = __dirname + "/static/json/jobs/drvo.json";
 const metal = __dirname + "/static/json/jobs/metal.json";
+const kamen = __dirname + "/static/json/jobs/kamen.json";
+
 const index = __dirname + "/static/json/pages/index.json";
 const contact = __dirname + "/static/json/pages/contact.json";
 const about = __dirname + "/static/json/pages/about.json";
@@ -45,6 +47,15 @@ function ejsFeedBack(document, filePath, res, selectLanguage) {
   });
 }
 
+app.get("/legal", (req, res) => {
+  res.render("legal");
+});
+
+app.get("/kamen", (req, res) => {
+  const selectLanguage = req.cookies.language || "srb";
+  ejsFeedBack("jobs", kamen, res, selectLanguage);
+});
+
 app.get("/metal", (req, res) => {
   const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("jobs", metal, res, selectLanguage);
@@ -59,8 +70,6 @@ app.get("/contact", (req, res) => {
   const selectLanguage = req.cookies.language || "srb";
   ejsFeedBack("contact", contact, res, selectLanguage);
 });
-
-
 
 app.get("/drvo", (req, res) => {
   const selectLanguage = req.cookies.language || "srb";

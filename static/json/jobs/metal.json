@@ -8,6 +8,8 @@
     "navMetal": "STE-MI metal",
     "navTekstil": "STE-MI tekstil",
     "navDrvo": "STE-MI drvo",
+    "navKamen": "STE-MI kamen",
+
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
     "firstTitle": "STE-MI METAL",
     "firstText": "Dobrodošli u STE-MI Metal i Reciklažu, gde se posvećujemo transformaciji otpada u vredne resurse. Naša kompanija se ponosi pružanjem sekundarnih sirovina vrhunskog kvaliteta, obuhvatajući širok spektar materijala od aluminijuma, bakra, cinka do gvožđa. Osim toga, nudimo retke proizvode, uključujući drveni otpad i plastične granulate, prilagođene potrebama naših klijenata.",
@@ -20,7 +22,10 @@
       "/delatnosti/metal/1.jpg",
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
-    ]
+    ],
+
+    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
+    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
   },
 
   "eng": {
@@ -32,6 +37,8 @@
     "navMetal": "STE-MI Metal",
     "navTekstil": "STE-MI Textile",
     "navDrvo": "STE-MI Wood",
+    "navKamen": "STE-MI Stone",
+
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
     "firstTitle": "STE-MI METAL",
     "firstText": "Welcome to STE-MI Metal and Recycling, where we are dedicated to transforming waste into valuable resources. Our company takes pride in providing high-quality secondary raw materials, encompassing a wide range of materials from aluminum, copper, zinc to iron. Additionally, we offer rare products, including wood waste and plastic granules, customized to the needs of our clients.",
@@ -44,7 +51,10 @@
       "/delatnosti/metal/1.jpg",
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
-    ]
+    ],
+
+    "footerTitle": "Connect with us on social media:",
+    "footerSlogan": "Continuous changes in the market motivate us to be better."
   },
 
   "ger": {
@@ -56,6 +66,8 @@
     "navMetal": "STE-MI Metall",
     "navTekstil": "STE-MI Textil",
     "navDrvo": "STE-MI Holz",
+    "navKamen": "STE-MI Stein",
+
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
     "firstTitle": "STE-MI Metall",
     "firstText": "Willkommen bei STE-MI Metall und Recycling, wo wir uns der Umwandlung von Abfall in wertvolle Ressourcen widmen. Unser Unternehmen ist stolz darauf, hochwertige Sekundärrohstoffe anzubieten und umfasst eine breite Palette von Materialien von Aluminium, Kupfer, Zink bis Eisen. Darüber hinaus bieten wir seltene Produkte wie Holzabfälle und Kunststoffgranulate, die den Bedürfnissen unserer Kunden angepasst sind.",
@@ -68,7 +80,10 @@
       "/delatnosti/metal/1.jpg",
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
-    ]
+    ],
+
+    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
+    "footerSlogan": "Die ständigen Veränderungen auf dem Markt motivieren uns, besser zu sein."
   },
 
   "fr": {
@@ -80,6 +95,8 @@
     "navMetal": "Métal STE-MI",
     "navTekstil": "Textile STE-MI",
     "navDrvo": "Bois STE-MI",
+    "navKamen": "STE-MI Pierre",
+
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
     "firstTitle": "STE-MI MÉTAL",
     "firstText": "Bienvenue chez STE-MI Métal et Recyclage, où nous nous consacrons à la transformation des déchets en ressources précieuses. Notre entreprise est fière de fournir des matières premières secondaires de haute qualité, couvrant une large gamme de matériaux, de l'aluminium au cuivre, au zinc et au fer. De plus, nous proposons des produits rares, notamment des déchets de bois et des granulés plastiques, adaptés aux besoins de nos clients.",
@@ -92,6 +109,8 @@
       "/delatnosti/metal/1.jpg",
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
-    ]
+    ],
+    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
+    "footerSlogan": "Les changements constants sur le marché nous poussent à être meilleurs."
   }
 }

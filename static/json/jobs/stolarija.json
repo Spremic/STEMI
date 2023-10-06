@@ -8,6 +8,8 @@
     "navMetal": "STE-MI metal",
     "navTekstil": "STE-MI tekstil",
     "navDrvo": "STE-MI drvo",
+    "navKamen": "STE-MI kamen",
+
     "backgroundImage": "/delatnosti/stolarija/stolarijaBackground.jpg",
     "firstTitle": "STE-MI STOLARIJA",
     "firstText": "Mi smo stručnjaci u proizvodnji stolarije, gde kvalitet i prilagodljivost idu zajedno. Naša posvećenost savremenim materijalima i tehnologijama omogućava nam da stvorimo stolariju po meri vaših potreba. Širok Spektar Proizvoda: Naša paleta proizvoda obuhvata prozore, vrata, podizne i klizne sisteme, garažna vrata, rolo i plise komarnike, kao i strukturalne fasade. Bez obzira na vašu ideju ili zahtev, mi smo spremni da je pretvorimo u stvarnost.",
@@ -25,7 +27,10 @@
       "/delatnosti/stolarija/10.jpg",
       "/delatnosti/stolarija/11.jpg",
       "/delatnosti/stolarija/12.jpg"
-    ]
+    ],
+
+    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
+    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
   },
 
   "eng": {
@@ -37,6 +42,8 @@
     "navMetal": "STE-MI Metal",
     "navTekstil": "STE-MI Textile",
     "navDrvo": "STE-MI Wood",
+    "navKamen": "STE-MI Stone",
+
     "backgroundImage": "/delatnosti/stolarija/stolarijaBackground.jpg",
     "firstTitle": "STE-MI JOINERY",
     "firstText": "We are experts in the production of carpentry, where quality and adaptability go hand in hand. Our commitment to modern materials and technologies allows us to create customized carpentry tailored to your needs. Wide Range of Products: Our product range includes windows, doors, lift and slide systems, garage doors, roller and pleated insect screens, as well as structural facades. Regardless of your idea or requirement, we are ready to turn it into reality.",
@@ -55,7 +62,10 @@
       "/delatnosti/stolarija/10.jpg",
       "/delatnosti/stolarija/11.jpg",
       "/delatnosti/stolarija/12.jpg"
-    ]
+    ],
+
+    "footerTitle": "Connect with us on social media:",
+    "footerSlogan": "Continuous changes in the market motivate us to be better."
   },
 
   "ger": {
@@ -67,6 +77,8 @@
     "navMetal": "STE-MI Metall",
     "navTekstil": "STE-MI Textil",
     "navDrvo": "STE-MI Holz",
+    "navKamen": "STE-MI Stein",
+
     "backgroundImage": "/delatnosti/stolarija/stolarijaBackground.jpg",
     "firstTitle": "STE-MI SCHREINEREI",
     "firstText": "Wir sind Experten in der Herstellung von Fenstern und Türen, wo Qualität und Anpassungsfähigkeit Hand in Hand gehen. Unsere Hingabe an moderne Materialien und Technologien ermöglicht es uns, maßgeschneiderte Fenster und Türen nach Ihren Bedürfnissen zu schaffen. Breites Produktspektrum: Unsere Produktpalette umfasst Fenster, Türen, Schiebe- und Hebesysteme, Garagentore, Roll- und Plissee-Insektenschutzgitter sowie strukturelle Fassaden. Egal, welche Ideen oder Anforderungen Sie haben, wir sind bereit, sie in die Realität umzusetzen.",
@@ -85,7 +97,10 @@
       "/delatnosti/stolarija/10.jpg",
       "/delatnosti/stolarija/11.jpg",
       "/delatnosti/stolarija/12.jpg"
-    ]
+    ],
+
+    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
+    "footerSlogan": "Die ständigen Veränderungen auf dem Markt motivieren uns, besser zu sein."
   },
 
   "fr": {
@@ -97,6 +112,8 @@
     "navMetal": "Métal STE-MI",
     "navTekstil": "Textile STE-MI",
     "navDrvo": "Bois STE-MI",
+    "navKamen": "STE-MI Pierre",
+
     "backgroundImage": "/delatnosti/stolarija/stolarijaBackground.jpg",
     "firstTitle": "STE-MI MENUISERIE",
     "firstText": "Nous sommes des experts dans la fabrication de menuiserie, où la qualité et la flexibilité vont de pair. Notre engagement envers les matériaux et les technologies modernes nous permet de créer des menuiseries sur mesure selon vos besoins. Large Gamme de Produits : Notre gamme de produits comprend des fenêtres, des portes, des systèmes coulissants et à levage, des portes de garage, des moustiquaires roulantes et plissées, ainsi que des façades structurales. Quelle que soit votre idée ou votre demande, nous sommes prêts à la concrétiser.",
@@ -115,6 +132,9 @@
       "/delatnosti/stolarija/10.jpg",
       "/delatnosti/stolarija/11.jpg",
       "/delatnosti/stolarija/12.jpg"
-    ]
+    ],
+
+    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
+    "footerSlogan": "Les changements constants sur le marché nous poussent à être meilleurs."
   }
 }

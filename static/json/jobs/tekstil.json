@@ -8,6 +8,8 @@
     "navMetal": "STE-MI metal",
     "navTekstil": "STE-MI tekstil",
     "navDrvo": "STE-MI drvo",
+    "navKamen": "STE-MI kamen",
+
     "backgroundImage": "/delatnosti/tekstil/tekstilBackground.jpg",
     "firstTitle": "STE-MI TEKSTIL",
     "firstText": "Dobrodošli u STE-MI Tekstil, gde stvaramo tkanine visokog kvaliteta i kreiramo odeću po meri, zadovoljavajući standarde BSCI. Naša kompanija je posvećena pružanju vrhunskih tekstilnih proizvoda, uključujući pamuk, likru, elastin i druge materijale, dok se istovremeno bavimo uslužnom proizvodnjom odeće prema specifičnim zahtevima naših klijenata iz Evrope.",
@@ -16,7 +18,10 @@
     "leftText": "STE-MI Tekstil se ponosi proizvodnjom tkanina koje zadovoljavaju visoke standarde BSCI, što je obećanje da iza svakog našeg proizvoda stoji etičko i održivo poslovanje. Naša paleta materijala uključuje pamuk, likru, elastin i druge visokokvalitetne tkanine koje ispunjavaju raznovrsne potrebe tržišta.",
     "rightText": "Kroz usluznu proizvodnju odeće, pružamo klijentima iz Evrope mogućnost da stvore odeću koja odražava njihov stil i identitet. Naš tim stručnjaka je tu da sasluša vaše ideje, pruži savete i stvori odeću prema vašim željama i uputstvima.",
     "imageSliderActive": "/delatnosti/tekstil/2.jpg",
-    "imageSlider": ["/delatnosti/tekstil/3.jpg"]
+    "imageSlider": ["/delatnosti/tekstil/3.jpg"],
+
+    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
+    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
   },
 
   "eng": {
@@ -28,6 +33,8 @@
     "navMetal": "STE-MI Metal",
     "navTekstil": "STE-MI Textile",
     "navDrvo": "STE-MI Wood",
+    "navKamen": "STE-MI Stone",
+
     "backgroundImage": "/delatnosti/tekstil/tekstilBackground.jpg",
     "firstTitle": "STE-MI TEXTILE",
     "firstText": "Welcome to STE-MI Textile, where we produce high-quality fabrics and create custom-made clothing, meeting BSCI standards. Our company is dedicated to providing top-notch textile products, including cotton, lycra, elastane, and other materials, while also engaging in custom clothing manufacturing to meet the specific requirements of our clients from Europe.",
@@ -36,7 +43,10 @@
     "leftText": "STE-MI Textile takes pride in producing fabrics that meet high BSCI standards, which is a commitment that ethical and sustainable practices underlie every one of our products. Our range of materials includes cotton, lycra, elastane, and other high-quality fabrics that cater to a variety of market needs.",
     "rightText": "Through our clothing manufacturing services, we offer clients from Europe the opportunity to create clothing that reflects their style and identity. Our team of experts is here to listen to your ideas, provide guidance, and craft clothing according to your preferences and instructions.",
     "imageSliderActive": "/delatnosti/tekstil/2.jpg",
-    "imageSlider": ["/delatnosti/tekstil/3.jpg"]
+    "imageSlider": ["/delatnosti/tekstil/3.jpg"],
+
+    "footerTitle": "Connect with us on social media:",
+    "footerSlogan": "Continuous changes in the market motivate us to be better."
   },
 
   "ger": {
@@ -48,6 +58,8 @@
     "navMetal": "STE-MI Metall",
     "navTekstil": "STE-MI Textil",
     "navDrvo": "STE-MI Holz",
+    "navKamen": "STE-MI Stein",
+
     "backgroundImage": "/delatnosti/tekstil/tekstilBackground.jpg",
     "firstTitle": "STE-MI TEXTIL",
     "firstText": "Herzlich willkommen bei STE-MI Textil, wo wir hochwertige Stoffe herstellen und maßgeschneiderte Kleidung gemäß den BSCI-Standards erstellen. Unser Unternehmen widmet sich der Bereitstellung erstklassiger Textilprodukte, einschließlich Baumwolle, Lycra, Elastan und anderer Materialien, während wir gleichzeitig die individuelle Bekleidungsherstellung gemäß den speziellen Anforderungen unserer Kunden in Europa anbieten.",
@@ -56,7 +68,10 @@
     "leftText": "STE-MI Textil ist stolz darauf, Stoffe zu produzieren, die hohe BSCI-Standards erfüllen, was das Versprechen bedeutet, dass hinter jedem unserer Produkte ein ethisches und nachhaltiges Geschäft steht. Unsere Palette an Materialien umfasst Baumwolle, Lycra, Elastan und andere hochwertige Stoffe, die vielfältige Marktbedürfnisse erfüllen.",
     "rightText": "Durch unsere Bekleidungsfertigung bieten wir Kunden in Europa die Möglichkeit, Kleidung zu kreieren, die ihren Stil und ihre Identität widerspiegelt. Unser Expertenteam steht Ihnen zur Verfügung, um Ihre Ideen anzuhören, Ratschläge zu geben und Kleidung gemäß Ihren Wünschen und Anweisungen zu gestalten.",
     "imageSliderActive": "/delatnost i/tekstil/2.jpg",
-    "imageSlider": ["/delatnosti/tekstil/3.jpg"]
+    "imageSlider": ["/delatnosti/tekstil/3.jpg"],
+
+    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
+    "footerSlogan": "Die ständigen Veränderungen auf dem Markt motivieren uns, besser zu sein."
   },
 
   "fr": {
@@ -68,6 +83,8 @@
     "navMetal": "Métal STE-MI",
     "navTekstil": "Textile STE-MI",
     "navDrvo": "Bois STE-MI",
+    "navKamen": "STE-MI Pierre",
+
     "backgroundImage": "/delatnosti/tekstil/tekstilBackground.jpg",
     "firstTitle": "STE-MI TEXTILE",
     "firstText": "Bienvenue chez STE-MI Textile, où nous créons des tissus de haute qualité et fabriquons des vêtements sur mesure conformément aux normes BSCI. Notre entreprise s'engage à fournir des produits textiles de premier ordre, notamment du coton, du Lycra, de l'élasthanne et d'autres matériaux, tout en offrant des services de confection de vêtements personnalisés selon les besoins spécifiques de nos clients en Europe.",
@@ -76,6 +93,9 @@
     "leftText": "STE-MI Textile est fier de produire des tissus qui répondent aux normes élevées de la BSCI, ce qui signifie que chaque produit que nous fabriquons est le résultat d'une entreprise éthique et durable. Notre gamme de matériaux comprend le coton, le Lycra, l'élasthanne et d'autres tissus de haute qualité qui répondent aux besoins variés du marché.",
     "rightText": "À travers notre service de fabrication de vêtements sur mesure, nous offrons à nos clients européens la possibilité de créer des vêtements qui reflètent leur style et leur identité. Notre équipe d'experts est là pour écouter vos idées, donner des conseils et créer des vêtements selon vos souhaits et instructions.",
     "imageSliderActive": "/delatnosti/tekstil/2.jpg",
-    "imageSlider": ["/delatnosti/tekstil/3.jpg"]
+    "imageSlider": ["/delatnosti/tekstil/3.jpg"],
+
+    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
+    "footerSlogan": "Les changements constants sur le marché nous poussent à être meilleurs."
   }
 }
