@@ -1,12 +1,5 @@
 let languageBtn = document.querySelectorAll(".language-menu a");
 
-document.addEventListener("DOMContentLoaded", async () => {
-  // document.cookie = "language=srb; expires=" + new Date(Date.now() + 100 * 365 * 24 * 60 * 60 * 1000).toUTCString() + "; path=/";
-
-// OVO CES MORATI NA BEK DELU
-
-});
-
 const languageMap = {
   Serbian: "srb",
   English: "eng",
@@ -18,7 +11,7 @@ languageBtn.forEach((e) => {
   e.addEventListener("click", async (event) => {
     let targetEl = event.target.innerHTML;
     let language = languageMap[targetEl];
-    console.log(language)
+    console.log(language);
     document.cookie =
       "language=" +
       language +
@@ -26,9 +19,16 @@ languageBtn.forEach((e) => {
       new Date(Date.now() + 100 * 365 * 24 * 60 * 60 * 1000).toUTCString() +
       "; path=/";
 
-
-
-
     location.reload();
   });
+});
+
+
+
+//loader 
+
+const loadingScreen = document.querySelector('.loading-container');
+
+window.addEventListener('load', () => {
+    loadingScreen.style.display = 'none';
 });
