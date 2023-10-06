@@ -26,9 +26,9 @@ languageBtn.forEach((e) => {
 
 
 //loader 
-
-const loadingScreen = document.querySelector('.loading-container');
-
+let loadingScreen = document.querySelector('.loading-container');
+let body = document.querySelector("#body")
 window.addEventListener('load', () => {
     loadingScreen.style.display = 'none';
+    body.style.overflowY = "auto"
 });
