@@ -12,7 +12,7 @@
 
     "title": "Mozete nas kontaktirati:",
     "companyName": "Ime kompanije:",
-    "addres": "Adresa:",
+    "address": "Adresa:",
     "namePlaceholder": "Unesite ime i prezime",
     "nameErr": "Nepravilan format (Ime Prezime)",
     "mailPlaceholder": "Unesite e-mail adresu",
