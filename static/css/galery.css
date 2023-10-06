@@ -125,9 +125,9 @@
   filter: brightness(0.6);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center center; */
+  background-position: center center;
   background-color: #f0f0f0;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   z-index: -1;
 }
 
