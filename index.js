@@ -104,7 +104,7 @@ app.post("/api/sendMail", async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "dspremic1@gmail.com",
+    to: "office@ste-mi.com",
     subject: `Poruka sa sajta od ${nameLastname}`,
     html: `<p><strong>Poruka od:</strong> ${nameLastname},</p>
 <p><strong>Email adresa:</strong> ${email}.</p>
