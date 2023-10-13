@@ -4,22 +4,22 @@
     "navAbout": "O nama",
     "navKontakt": "Kontakt",
     "navDivizije": "Divizije",
-    "navStolarija": "STE-MI stolarija",
-    "navMetal": "STE-MI metal",
-    "navTekstil": "STE-MI tekstil",
-    "navDrvo": "STE-MI drvo",
-    "navKamen": "STE-MI kamen",
+    "navStolarija": "Stolarija",
+    "navMetal": "Metal",
+    "navTekstil": "Tekstil",
+    "navDrvo": "Drvo",
+    "navKamen": "Kamen",
 
     "pageName": "O NAMA",
     "aboutUsTitle": "Ko smo mi?",
     "aboutUsText": "Mi smo tim koji je kontinuirano angažovan i spreman da vam pruži podršku. Naša ekspertiza obuhvata različite oblasti kao što su stolarstvo, metalurgija, tekstilna industrija i obrada drveta. Naš cilj je da ispunimo sve potrebe naših klijenata u svakoj od ovih delatnosti i pružimo im najviši nivo kvaliteta. Zahvaljujući dugogodišnjem pozitivnom ugledu, stigli smo do ove tačke i izuzetno smo zahvalni na vašoj podršci.",
-    "aboutUsBtn": "Nas tim",
-    "historyTitle": "Nasa istorija",
+    "aboutUsBtn": "Naš tim",
+    "historyTitle": "Naša istorija",
     "historyText": "Naša istorija je kratka i jasna. Mi smo grupa ambicioznih ljudi koji su želeli da unesu nešto novo i ambiciozno na tržište. Godine napornog rada su nam omogućile da ostvarimo tu ambiciju. To je razlog zašto se naši klijenti uvek vraćaju.",
     "contactBtn": "Kontakt",
     "missionTitle": "Nasa misija",
     "missionText": "Svaki dan preduzimamo nove izazove i ciljeve. Nastojimo da kontinuirano unapređujemo naše poslovanje, ali prepoznajemo i značaj stalnih, ključnih misija koje su od suštinskog značaja.",
-    "missionTitleString": ["Niske cene", "Pristupacnost", "Ekologija"],
+    "missionTitleString": ["Niske cene", "Pristupačnost", "Ekologija"],
     "missionTextString": [
       "Naš cilj je postizanje optimalne isplativosti putem visokog kvaliteta uz minimalne cene.",
       "Naše poslovanje sa više evropskih država pokazuje kako je naše poslovanje jednostavno i pristupačno širom Evrope.",
@@ -27,11 +27,10 @@
     ],
     "odgovornostiTitle": "Drustvene odgovornosti",
     "odgovornostiText": "Posvećeni smo društvenoj odgovornosti na različite načine. Brinemo o našim resursima i zadovoljstvu naših zaposlenih, ali najviše se posvećujemo očuvanju ekologije. Svesni smo da postoji samo jedna priroda, i stoga je trebamo tretirati s najvećim poštovanjem.",
-    "team": "NAS TIM",
+    "team": "NAŠ TIM",
     "referenceTitle": "Reference",
     "referenceText": "STE-MI INTERNATIONAL je ostvario partnerstva sa kompanijama iz različitih zemalja, uključujući Austriju, Nemačku, Švajcarsku, Luksemburg, Tursku, Francusku, Poljsku i mnoge druge.",
-    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
-    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
+    "footerTitle": "Partneri sa kojima sarađujemo:"
   },
 
   "eng": {
@@ -39,11 +38,11 @@
     "navAbout": "About Us",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "STE-MI Carpentry",
-    "navMetal": "STE-MI Metal",
-    "navTekstil": "STE-MI Textile",
-    "navDrvo": "STE-MI Wood",
-    "navKamen": "STE-MI Stone",
+    "navStolarija": "Carpentry",
+    "navMetal": "Metal",
+    "navTekstil": "Textile",
+    "navDrvo": "Wood",
+    "navKamen": "Stone",
 
     "pageName": "ABOUT US",
     "aboutUsTitle": "Who We Are",
@@ -65,8 +64,7 @@
     "team": "OUR TEAM",
     "referenceTitle": "References",
     "referenceText": "STE-MI INTERNATIONAL has established partnerships with companies from various countries, including Austria, Germany, Switzerland, Luxembourg, Turkey, France, Poland, and many others.",
-    "footerTitle": "Connect with us on social media:",
-    "footerSlogan": "Continuous changes in the market motivate us to be better."
+    "footerTitle": "Partner companies we collaborate with:"
   },
 
   "ger": {
@@ -74,11 +72,11 @@
     "navAbout": "Über uns",
     "navKontakt": "Kontakt",
     "navDivizije": "Abteilungen",
-    "navStolarija": "STE-MI Tischlerei",
-    "navMetal": "STE-MI Metall",
-    "navTekstil": "STE-MI Textil",
-    "navDrvo": "STE-MI Holz",
-    "navKamen": "STE-MI Stein",
+    "navStolarija": "Tischlerei",
+    "navMetal": "Metall",
+    "navTekstil": "Textil",
+    "navDrvo": "Holz",
+    "navKamen": "Stein",
 
     "pageName": "ÜBER UNS",
     "aboutUsTitle": "Wer wir sind",
@@ -100,8 +98,7 @@
     "team": "UNSER TEAM",
     "referenceTitle": "Referenzen",
     "referenceText": "STE-MI INTERNATIONAL hat Partnerschaften mit Unternehmen aus verschiedenen Ländern aufgebaut, darunter Österreich, Deutschland, die Schweiz, Luxemburg, die Türkei, Frankreich, Polen und viele andere.",
-    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
-    "footerSlogan": "Die ständigen Veränderungen auf dem Markt motivieren uns, besser zu sein."
+    "footerTitle": "Partnerunternehmen, mit denen wir zusammenarbeiten:"
   },
 
   "fr": {
@@ -109,11 +106,11 @@
     "navAbout": "À propos de nous",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "Menuiserie STE-MI",
-    "navMetal": "Métallerie STE-MI",
-    "navTekstil": "Textile STE-MI",
-    "navDrvo": "Bois STE-MI",
-    "navKamen": "STE-MI Pierre",
+    "navStolarija": "Menuiserie",
+    "navMetal": "Métallerie",
+    "navTekstil": "Textile",
+    "navDrvo": "Bois",
+    "navKamen": "Pierre",
 
     "pageName": "À PROPOS DE NOUS",
     "aboutUsTitle": "Qui sommes-nous",
@@ -135,7 +132,6 @@
     "team": "NOTRE ÉQUIPE",
     "referenceTitle": "Références",
     "referenceText": "STE-MI INTERNATIONAL a établi des partenariats avec des entreprises de différents pays, dont l'Autriche, l'Allemagne, la Suisse, le Luxembourg, la Turquie, la France, la Pologne et bien d'autres.",
-    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
-    "footerSlogan": "Les changements constants sur le marché nous poussent à être meilleurs."
+    "footerTitle": "Entreprises partenaires avec lesquelles nous collaborons :"
   }
 }

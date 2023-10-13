@@ -4,28 +4,28 @@
     "navAbout": "O nama",
     "navKontakt": "Kontakt",
     "navDivizije": "Divizije",
-    "navStolarija": "STE-MI stolarija",
-    "navMetal": "STE-MI metal",
-    "navTekstil": "STE-MI tekstil",
-    "navDrvo": "STE-MI drvo",
-    "navKamen": "STE-MI kamen",
+    "navStolarija": "Stolarija",
+    "navMetal": "Metal",
+    "navTekstil": "Tekstil",
+    "navDrvo": "Drvo",
+    "navKamen": "Kamen",
 
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
-    "firstTitle": "STE-MI METAL",
+    "firstTitle": "METAL",
     "firstText": "Dobrodošli u STE-MI Metal i Reciklažu, gde se posvećujemo transformaciji otpada u vredne resurse. Naša kompanija se ponosi pružanjem sekundarnih sirovina vrhunskog kvaliteta, obuhvatajući širok spektar materijala od aluminijuma, bakra, cinka do gvožđa. Osim toga, nudimo retke proizvode, uključujući drveni otpad i plastične granulate, prilagođene potrebama naših klijenata.",
     "pictureOne": "/delatnosti/metal/2.jpg",
     "pictureTwo": "/delatnosti/metal/6.jpg",
     "leftText": "STE-MI Metal i Reciklaža posvećeni su održivom poslovanju i smanjenju ekološkog uticaja. Kroz proces reciklaže, doprinosimo zaštiti životne sredine smanjujući količinu otpada i optimizirajući iskorišćenje resursa.",
     "rightText": "Nudimo više od sekundarnih sirovina. Nudimo partnerstvo zasnovano na profesionalnosti i uzajamnom poverenju. Naš tim stručnjaka je tu da vam pruži podršku i preporuke, garantujući da vaše poslovanje ima pouzdane izvore materijala.",
     "imageSliderActive": "/delatnosti/metal/5.jpg",
+    "imageSliderTitle": ["Metal", "Metal", "Metal", "Metal"],
     "imageSlider": [
       "/delatnosti/metal/1.jpg",
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
     ],
 
-    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
-    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
+    "footerTitle": "Partneri sa kojima sarađujemo:"
   },
 
   "eng": {
@@ -33,28 +33,29 @@
     "navAbout": "About Us",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "STE-MI Joinery",
-    "navMetal": "STE-MI Metal",
-    "navTekstil": "STE-MI Textile",
-    "navDrvo": "STE-MI Wood",
-    "navKamen": "STE-MI Stone",
+    "navStolarija": "Joinery",
+    "navMetal": "Metal",
+    "navTekstil": "Textile",
+    "navDrvo": "Wood",
+    "navKamen": "Stone",
 
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
-    "firstTitle": "STE-MI METAL",
+    "firstTitle": "METAL",
     "firstText": "Welcome to STE-MI Metal and Recycling, where we are dedicated to transforming waste into valuable resources. Our company takes pride in providing high-quality secondary raw materials, encompassing a wide range of materials from aluminum, copper, zinc to iron. Additionally, we offer rare products, including wood waste and plastic granules, customized to the needs of our clients.",
     "pictureOne": "/delatnosti/metal/2.jpg",
     "pictureTwo": "/delatnosti/metal/6.jpg",
     "leftText": "STE-MI Metal and Recycling is dedicated to sustainable business practices and reducing environmental impact. Through the recycling process, we contribute to environmental protection by reducing waste and optimizing resource utilization.",
     "rightText": "We offer more than just secondary raw materials. We offer a partnership based on professionalism and mutual trust. Our team of experts is here to provide you with support and recommendations, ensuring that your business has reliable sources of materials.",
     "imageSliderActive": "/delatnosti/metal/5.jpg",
+    "imageSliderTitle": ["Metal", "Metal", "Metal", "Metal"],
+
     "imageSlider": [
       "/delatnosti/metal/1.jpg",
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
     ],
 
-    "footerTitle": "Connect with us on social media:",
-    "footerSlogan": "Continuous changes in the market motivate us to be better."
+    "footerTitle": "Partner companies we collaborate with:"
   },
 
   "ger": {
@@ -62,28 +63,29 @@
     "navAbout": "Über uns",
     "navKontakt": "Kontakt",
     "navDivizije": "Abteilungen",
-    "navStolarija": "STE-MI Schreinerei",
-    "navMetal": "STE-MI Metall",
-    "navTekstil": "STE-MI Textil",
-    "navDrvo": "STE-MI Holz",
-    "navKamen": "STE-MI Stein",
+    "navStolarija": "Schreinerei",
+    "navMetal": "Metall",
+    "navTekstil": "Textil",
+    "navDrvo": "Holz",
+    "navKamen": "Stein",
 
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
-    "firstTitle": "STE-MI Metall",
+    "firstTitle": "Metall",
     "firstText": "Willkommen bei STE-MI Metall und Recycling, wo wir uns der Umwandlung von Abfall in wertvolle Ressourcen widmen. Unser Unternehmen ist stolz darauf, hochwertige Sekundärrohstoffe anzubieten und umfasst eine breite Palette von Materialien von Aluminium, Kupfer, Zink bis Eisen. Darüber hinaus bieten wir seltene Produkte wie Holzabfälle und Kunststoffgranulate, die den Bedürfnissen unserer Kunden angepasst sind.",
     "pictureOne": "/delatnosti/metal/2.jpg",
     "pictureTwo": "/delatnosti/metal/6.jpg",
     "leftText": "STE-MI Metall und Recycling engagiert sich für nachhaltiges Wirtschaften und die Reduzierung der Umweltauswirkungen. Durch den Recyclingprozess tragen wir zum Umweltschutz bei, indem wir die Abfallmenge reduzieren und die Ressourcennutzung optimieren.",
     "rightText": "Wir bieten mehr als nur Sekundärrohstoffe. Wir bieten eine Partnerschaft, die auf Professionalität und gegenseitigem Vertrauen basiert. Unser Team von Experten steht Ihnen zur Unterstützung und Beratung zur Verfügung und garantiert, dass Ihr Unternehmen zuverlässige Materialquellen hat.    ",
     "imageSliderActive": "/delatnosti/metal/5.jpg",
+    "imageSliderTitle": ["Metall", "Metall", "Metall", "Metall"],
+
     "imageSlider": [
       "/delatnosti/metal/1.jpg",
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
     ],
 
-    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
-    "footerSlogan": "Die ständigen Veränderungen auf dem Markt motivieren uns, besser zu sein."
+    "footerTitle": "Partnerunternehmen, mit denen wir zusammenarbeiten:"
   },
 
   "fr": {
@@ -91,14 +93,14 @@
     "navAbout": "À propos de nous",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "Menuiserie STE-MI",
-    "navMetal": "Métal STE-MI",
-    "navTekstil": "Textile STE-MI",
-    "navDrvo": "Bois STE-MI",
-    "navKamen": "STE-MI Pierre",
+    "navStolarija": "Menuiserie",
+    "navMetal": "Métal",
+    "navTekstil": "Textile",
+    "navDrvo": "Bois",
+    "navKamen": "Pierre",
 
     "backgroundImage": "/delatnosti/metal/metalBackground.jpg",
-    "firstTitle": "STE-MI MÉTAL",
+    "firstTitle": "MÉTAL",
     "firstText": "Bienvenue chez STE-MI Métal et Recyclage, où nous nous consacrons à la transformation des déchets en ressources précieuses. Notre entreprise est fière de fournir des matières premières secondaires de haute qualité, couvrant une large gamme de matériaux, de l'aluminium au cuivre, au zinc et au fer. De plus, nous proposons des produits rares, notamment des déchets de bois et des granulés plastiques, adaptés aux besoins de nos clients.",
     "pictureOne": "/delatnosti/metal/2.jpg",
     "pictureTwo": "/delatnosti/metal/6.jpg",
@@ -110,7 +112,6 @@
       "/delatnosti/metal/3.jpg",
       "/delatnosti/metal/4.jpg"
     ],
-    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
-    "footerSlogan": "Les changements constants sur le marché nous poussent à être meilleurs."
+    "footerTitle": "Entreprises partenaires avec lesquelles nous collaborons :"
   }
 }

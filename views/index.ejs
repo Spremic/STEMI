@@ -219,12 +219,6 @@
             </ul>
           </div>
 
-          <div class="advantages">
-            <span title="Recycled Materials">RM</span>
-            <span title="Low VOC">LVOC</span>
-            <span title="Sustainable Materials">SM</span>
-          </div>
-
           <div class="button">
             <a href="/stolarija"
               ><button><%= jsonPodaci.uslugeBTN %></button></a
@@ -250,12 +244,6 @@
             </ul>
           </div>
 
-          <div class="advantages">
-            <span title="Recycled Materials">RM</span>
-            <span title="Low VOC">LVOC</span>
-            <span title="Sustainable Materials">SM</span>
-          </div>
-
           <div class="button">
             <a href="/metal"><button><%= jsonPodaci.uslugeBTN %></button></a>
           </div>
@@ -277,11 +265,6 @@
               <li><%= e %></li>
               <% }); %>
             </ul>
-          </div>
-
-          <div class="advantages">
-            <span title="Low-Impact Textiles">LIT</span>
-            <span title="Natural fabric">NB</span>
           </div>
 
           <div class="button">
@@ -307,11 +290,6 @@
             </ul>
           </div>
 
-          <div class="advantages">
-            <span title="Sustainable Resource Use">SRU</span>
-            <span title="Low-Impact Wood">LIW</span>
-          </div>
-
           <div class="button">
             <a href="/drvo"><button><%= jsonPodaci.uslugeBTN %></button></a>
           </div>
@@ -335,11 +313,6 @@
             </ul>
           </div>
 
-          <div class="advantages">
-            <span title="Natural stone">NT</span>
-            <span title="Environmental Care">EC</span>
-          </div>
-
           <div class="button">
             <a href="/kamen"><button><%= jsonPodaci.uslugeBTN %></button></a>
           </div>
@@ -347,105 +320,11 @@
       </div>
     </section>
 
-    <section id="recension">
-      <div class="recensionTitle">
-        <h3><%= jsonPodaci.commentsTitle %></h3>
-      </div>
-
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            id="firstCaruosel"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-            id="secondCaruosel"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-            id="thirdCaruosel"
-          ></button>
-        </div>
-        <div class="carousel-inner" id="caruselContainer">
-          <div class="carousel-item active">
-            <div class="quote quoteContainer">
-              <div>
-                <i class="fa fa-quote-right" aria-hidden="true"></i>
-                <p>
-                  <span>"</span> <%= jsonPodaci.helenaComment %>
-                  <span>"</span>
-                </p>
-                <h6><span>-</span> Helena Wilson <span>-</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="quote quoteContainer">
-              <div>
-                <i class="fa fa-quote-right" aria-hidden="true"></i>
-                <p>
-                  <span>"</span> <%= jsonPodaci.johanComment %>
-                  <span>"</span>
-                </p>
-                <h6><span>-</span> Johan Multhoff <span>-</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="quote quoteContainer">
-              <div>
-                <i class="fa fa-quote-right" aria-hidden="true"></i>
-                <p>
-                  <span>"</span> <%= jsonPodaci.draganComment %>
-                  <span>"</span>
-                </p>
-                <h6><span>-</span> Dragan Jovic <span>-</span></h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span aria-hidden="true" class="recensionArrow"
-            ><i class="fa fa-arrow-left" aria-hidden="true"></i>
-          </span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span aria-hidden="true" class="recensionArrow"
-            ><i class="fa fa-arrow-right" aria-hidden="true"></i>
-          </span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-
     <!-- Footer -->
     <footer class="text-center text-lg-start">
       <!-- Section: Social media -->
       <section
-        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        class="d-flex justify-content-center align-items-center justify-content-lg-between p-4 border-bottom"
       >
         <!-- Left -->
         <div class="me-5 d-none d-lg-block">
@@ -455,15 +334,58 @@
 
         <!-- Right -->
         <div>
-          <a href="mailto:office@ste-mi.com" class="me-4 link-secondary">
-            <i class="fab fa-google"></i>
+          <a
+            href="https://www.elvial.gr/"
+            target="_blank"
+            class="me-4 link-secondary"
+          >
+            <img
+              src="/elvial.png"
+              alt="elvial"
+              srcset=""
+              style="
+                filter: grayscale(100%);
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+              "
+            />
           </a>
 
           <a
-            href="https://www.linkedin.com/company/ste-mi-international/"
+            href="https://www.koemmerling.com/us/en/"
             class="me-4 link-secondary"
+            target="_blank"
           >
-            <i class="fab fa-linkedin"></i>
+            <img
+              src="/komerling.png"
+              alt="elvial"
+              srcset=""
+              style="
+                filter: grayscale(100%);
+                width: 60px;
+                height: 60px;
+                object-fit: contain;
+              "
+            />
+          </a>
+
+          <a
+            href="https://www.koemmerling.com/us/en/"
+            class="me-4 link-secondary"
+            target="_blank"
+          >
+            <img
+              src="/schuco.png"
+              alt="elvial"
+              srcset=""
+              style="
+                filter: grayscale(100%);
+                width: 60px;
+                height: 60px;
+                object-fit: contain;
+              "
+            />
           </a>
         </div>
         <!-- Right -->
@@ -482,7 +404,6 @@
                 <i class="fas fa-gem me-3 text-secondary"></i>STE-MI
                 INTERNATIONAL
               </h6>
-              <p><%= jsonPodaci.footerSlogan %></p>
             </div>
             <!-- Grid column -->
 
@@ -532,8 +453,8 @@
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
-                <i class="fas fa-home me-3 text-secondary"></i> Ivice
-                Miladinovića 2, Babusnica
+                <i class="fas fa-home me-3 text-secondary"></i> Ivice Ivice
+                Miladinovića 2, Babušnica
               </p>
               <p>
                 <a

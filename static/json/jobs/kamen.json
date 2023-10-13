@@ -4,20 +4,21 @@
     "navAbout": "O nama",
     "navKontakt": "Kontakt",
     "navDivizije": "Divizije",
-    "navStolarija": "STE-MI stolarija",
-    "navMetal": "STE-MI metal",
-    "navTekstil": "STE-MI tekstil",
-    "navDrvo": "STE-MI drvo",
-    "navKamen": "STE-MI kamen",
+    "navStolarija": "Stolarija",
+    "navMetal": "Metal",
+    "navTekstil": "Tekstil",
+    "navDrvo": "Drvo",
+    "navKamen": "Kamen",
 
     "backgroundImage": "/delatnosti/kamen/stoneBackground.jpg",
-    "firstTitle": "STE-MI KAMEN",
+    "firstTitle": "KAMEN",
     "firstText": "Dobrodošli u STE-MI KAMEN, vašeg pouzdanog partnera za prirodni kamen i granit visokog kvaliteta. Smješteni u podnožju planine Rudnik, gde se nalaze najbolji rudnici prirodnog kamena i granita, posvećeni smo pružanju vrhunskih proizvoda i usluga našim kupcima širom Evropske unije.",
     "pictureOne": "/delatnosti/kamen/3.jpg",
     "pictureTwo": "/delatnosti/kamen/6.jpg",
     "leftText": "Partnerstvo s Rudnicima: STE-MI KAMEN ima uspešno partnerstvo s nekoliko rudnika, što nam omogućava direktnu distribuciju proizvoda. Kroz ovo partnerstvo, osiguravamo konzistentan pristup najkvalitetnijim sirovinama Evropska Unija: Distribucija na Globalnom Nivou: Posedujemo pravo na distribuciju proizvoda u Evropskoj uniji, pružajući našim kupcima pristup vrhunskom kamenu i granitu širom kontinenta.    ",
     "rightText": "STE-MI KAMEN nije samo kompanija koja prodaje kamen, već partner koji isporučuje prirodnu lepotu i dugotrajnu vrednost. Kontaktirajte nas danas i otkrijte šta priroda ima da ponudi kroz našu paletu vrhunskih proizvoda",
     "imageSliderActive": "/delatnosti/kamen/1.jpg",
+    "imageSliderTitle": ["Kamen", "Kamen", "Kamen", "Kamen", "Kamen"],
     "imageSlider": [
       "/delatnosti/kamen/4.jpg",
       "/delatnosti/kamen/5.jpg",
@@ -25,8 +26,7 @@
       "/delatnosti/kamen/9.jpg"
     ],
 
-    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
-    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
+    "footerTitle": "Partneri sa kojima sarađujemo:"
   },
 
   "eng": {
@@ -34,20 +34,22 @@
     "navAbout": "About Us",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "STE-MI Carpentry",
-    "navMetal": "STE-MI Metal",
-    "navTekstil": "STE-MI Textiles",
-    "navDrvo": "STE-MI Wood",
-    "navKamen": "STE-MI Stone",
+    "navStolarija": "Joinery",
+    "navMetal": "Metal",
+    "navTekstil": "Textile",
+    "navDrvo": "Wood",
+    "navKamen": "Stone",
 
     "backgroundImage": "/delatnosti/kamen/stoneBackground.jpg",
-    "firstTitle": "STE-MI STONE",
+    "firstTitle": "STONE",
     "firstText": "Welcome to STE-MI STONE, your trusted partner for high-quality natural stone and granite. Located at the foothills of the Rudnik mountain, home to some of the finest natural stone and granite quarries, we are committed to delivering top-notch products and services to our customers across the European Union.",
     "pictureOne": "/delatnosti/kamen/3.jpg",
     "pictureTwo": "/delatnosti/kamen/6.jpg",
     "leftText": "Partnership with Quarries: STE-MI STONE has successful partnerships with several quarries, enabling us to have direct access to the highest quality raw materials. European Union: Global Distribution: We have the right to distribute our products within the European Union, providing our customers with access to premium stone and granite across the continent.",
     "rightText": "STE-MI STONE is not just a company that sells stone; we are a partner delivering natural beauty and enduring value. Contact us today and discover what nature has to offer through our range of premium products.",
     "imageSliderActive": "/delatnosti/kamen/1.jpg",
+    "imageSliderTitle": ["Stone", "Stone", "Stone", "Stone", "Stone"],
+
     "imageSlider": [
       "/delatnosti/kamen/4.jpg",
       "/delatnosti/kamen/5.jpg",
@@ -55,8 +57,7 @@
       "/delatnosti/kamen/9.jpg"
     ],
 
-    "footerTitle": "Connect with us on social media:",
-    "footerSlogan": "Continuous changes in the market motivate us to be better."
+    "footerTitle": "Partner companies we collaborate with:"
   },
 
   "ger": {
@@ -64,20 +65,22 @@
     "navAbout": "Über uns",
     "navKontakt": "Kontakt",
     "navDivizije": "Abteilungen",
-    "navStolarija": "STE-MI Schreinerei",
-    "navMetal": "STE-MI Metall",
-    "navTekstil": "STE-MI Textilien",
-    "navDrvo": "STE-MI Holz",
-    "navKamen": "STE-MI Stein",
+    "navStolarija": "Schreinerei",
+    "navMetal": "Metall",
+    "navTekstil": "Textil",
+    "navDrvo": "Holz",
+    "navKamen": "Stein",
 
     "backgroundImage": "/delatnosti/kamen/stoneBackground.jpg",
-    "firstTitle": "STE-MI STEIN",
+    "firstTitle": "STEIN",
     "firstText": "Willkommen bei STE-MI STEIN, Ihrem vertrauenswürdigen Partner für hochwertigen Naturstein und Granit. Gelegen am Fuße des Rudnik-Gebirges, Heimat einiger der besten Naturstein- und Granitsteinbrüche, sind wir bestrebt, erstklassige Produkte und Dienstleistungen für unsere Kunden in der gesamten Europäischen Union bereitzustellen.",
     "pictureOne": "/delatnosti/kamen/3.jpg",
     "pictureTwo": "/delatnosti/kamen/6.jpg",
     "leftText": "Partnerschaft mit Steinbrüchen: STE-MI STEIN hat erfolgreiche Partnerschaften mit mehreren Steinbrüchen, was uns den direkten Zugang zu hochwertigen Rohstoffen ermöglicht. Europäische Union: Globale Verteilung: Wir haben das Recht, unsere Produkte innerhalb der Europäischen Union zu vertreiben und unseren Kunden Zugang zu erstklassigem Stein und Granit auf dem gesamten Kontinent zu bieten.",
     "rightText": "STE-MI STEIN ist nicht nur ein Unternehmen, das Stein verkauft; wir sind ein Partner, der natürliche Schönheit und langanhaltenden Wert liefert. Kontaktieren Sie uns noch heute und entdecken Sie, was die Natur durch unser Sortiment an erstklassigen Produkten zu bieten hat.",
     "imageSliderActive": "/delatnosti/kamen/1.jpg",
+    "imageSliderTitle": ["Stein", "Stein", "Stein", "Stein", "Stein"],
+
     "imageSlider": [
       "/delatnosti/kamen/4.jpg",
       "/delatnosti/kamen/5.jpg",
@@ -85,8 +88,7 @@
       "/delatnosti/kamen/9.jpg"
     ],
 
-    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
-    "footerSlogan": "Die ständigen Veränderungen auf dem Markt motivieren uns, besser zu sein."
+    "footerTitle": "Partnerunternehmen, mit denen wir zusammenarbeiten:"
   },
 
   "fr": {
@@ -94,20 +96,22 @@
     "navAbout": "À propos de nous",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "STE-MI Menuiserie",
-    "navMetal": "STE-MI Métal",
-    "navTekstil": "STE-MI Textiles",
-    "navDrvo": "STE-MI Bois",
-    "navKamen": "STE-MI Pierre",
+    "navStolarija": "Menuiserie",
+    "navMetal": "Métal",
+    "navTekstil": "Textile",
+    "navDrvo": "Bois",
+    "navKamen": "Pierre",
 
     "backgroundImage": "/delatnosti/kamen/stoneBackground.jpg",
-    "firstTitle": "STE-MI PIERRE",
+    "firstTitle": "PIERRE",
     "firstText": "Bienvenue chez STE-MI PIERRE, votre partenaire de confiance pour la pierre naturelle et le granit de haute qualité. Situés au pied de la montagne Rudnik, abritant certaines des meilleures carrières de pierre naturelle et de granit, nous nous engageons à fournir des produits et des services de première qualité à nos clients dans l'ensemble de l'Union européenne.",
     "pictureOne": "/delatnosti/kamen/3.jpg",
     "pictureTwo": "/delatnosti/kamen/6.jpg",
     "leftText": "Partenariat avec les carrières : STE-MI PIERRE entretient des partenariats fructueux avec plusieurs carrières, ce qui nous permet d'avoir un accès direct aux matières premières de la plus haute qualité. Union européenne : Distribution mondiale : Nous avons le droit de distribuer nos produits au sein de l'Union européenne, offrant ainsi à nos clients un accès à la pierre et au granit de qualité supérieure sur l'ensemble du continent.",
     "rightText": "STE-MI PIERRE n'est pas seulement une entreprise qui vend de la pierre ; nous sommes un partenaire qui offre la beauté naturelle et la valeur durable. Contactez-nous dès aujourd'hui et découvrez ce que la nature a à offrir à travers notre gamme de produits de première qualité.",
     "imageSliderActive": "/delatnosti/kamen/1.jpg",
+    "imageSliderTitle": ["Pierre", "Pierre", "Pierre", "Pierre", "Pierre"],
+
     "imageSlider": [
       "/delatnosti/kamen/4.jpg",
       "/delatnosti/kamen/5.jpg",
@@ -115,7 +119,6 @@
       "/delatnosti/kamen/9.jpg"
     ],
 
-    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
-    "footerSlogan": "Les changements constants sur le marché nous poussent à être meilleurs."
+    "footerTitle": "Entreprises partenaires avec lesquelles nous collaborons :"
   }
 }

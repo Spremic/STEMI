@@ -11,6 +11,8 @@ const app = express();
 app.use(express.static(__dirname + "/static/css"));
 app.use(express.static(__dirname + "/static/script"));
 app.use(express.static(__dirname + "/static/img"));
+app.use(express.static(__dirname + "/static/catalog"));
+
 app.use(express.static(__dirname + "/static/json/jobs"));
 app.use(express.static(__dirname + "/static"));
 app.set("views", path.join(__dirname, "views"));

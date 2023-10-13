@@ -4,28 +4,28 @@
     "navAbout": "O nama",
     "navKontakt": "Kontakt",
     "navDivizije": "Divizije",
-    "navStolarija": "STE-MI stolarija",
-    "navMetal": "STE-MI metal",
-    "navTekstil": "STE-MI tekstil",
-    "navDrvo": "STE-MI drvo",
-    "navKamen": "STE-MI kamen",
+    "navStolarija": "Stolarija",
+    "navMetal": "Metal",
+    "navTekstil": "Tekstil",
+    "navDrvo": "Drvo",
+    "navKamen": "Kamen",
 
-    "welcomeSection": "Visedecenijsko iskustvo partnerstva sa kupcima iz Evrope i Afrike, tačnost, pouzdanost i odlična usluga su ono što nas odlikuje. Opremljeni ovim faktorima i znanjem, savršeno smo pripremljeni za globalnu trgovinu.",
+    "welcomeSection": "Višedecenijsko iskustvo partnerstva sa kupcima iz Evrope i Afrike, tačnost, pouzdanost i odlična usluga su ono što nas odlikuje. Opremljeni ovim faktorima i znanjem, savršeno smo pripremljeni za globalnu trgovinu.",
     "aboutUsTitle": "Zašto izabrati nas?",
     "aboutUsSecondTitle": "Svakodnevna komunikacija sa klijentima pomaže nam u izgradnji reputacije na tržištu.",
     "aboutUsComunicationSpan": "Komunikacija",
     "aboutUsComunicationText": "sa našim klijentima predstavlja glavni aspekt naše poslovne filozofije. U današnjem brzom i promenljivom poslovnom okruženju, svesni smo da se tržište neprestano menja, i stoga smo posvećeni prilagođavanju vašim jedinstvenim zahtevima, bez obzira na njihovu prirodu. Želimo istaći da smo uvek spremni za otvorenu i konstruktivnu komunikaciju sa vama kako bismo zajedno postigli najbolje rezultate.",
     "aboutUsInovSpan": "Inovativna",
-    "aboutUsInovText": "rešenja koja su prilagođena vašim specifičnim potrebama. Naša posvećenost istraživanju najnovijih tehnologija i trendova osigurava da vaš projekat bude u korak s vremenom i unapređuje vaše poslovanje. Tim stručnjaka koji čini našu kompaniju ima kreativan pristup rešavanju problema. Verujemo u stvaranje jedinstvenih i inovativnih rešenja koja će vas izdvojiti iz mase i doprineti vašem uspehu na tržištu.",
+    "aboutUsInovText": "rešenja koja su prilagođena vašim specifičnim potrebama. Naša posvećenost istraživanju najnovijih tehnologija i trendova osigurava da vaš projekat bude u koraku s vremenom i unapređuje vaše poslovanje. Tim stručnjaka koji čini našu kompaniju ima kreativan pristup rešavanju problema. Verujemo u stvaranje jedinstvenih i inovativnih rešenja koja će vas izdvojiti iz mase i doprineti vašem uspehu na tržištu.",
     "aboutUsPriceTitle": "Cena",
     "aboutUsPriceText": "je jasna i poštena. Nema skrivenih troškova ili neprijatnih iznenađenja. Verujemo u transparentnost kako bismo stvorili poverenje s našim klijentima. Pružamo vam vrednost za uloženi novac. Razumemo da svaki projekat ima svoj budžet. Radimo s vama kako bismo prilagodili naše usluge vašim finansijskim mogućnostima, pružajući istovremeno visokokvalitetne usluge bez kompromisa.",
-    "orangeSectionTitle": "Dobrodosli u STE-MI INTERNATIONAL",
-    "orangeSectionText": "Vasa pouzdana veza iz Srbije ka Evropskoj uniji I svetu. Osnovna delatnost nase kompanije je proizvodnja stolarije I distribucija robe kao I snabdevanje velikih kompanija raznim sirovinama za proizvodnju. Nasa posvecenost kvalitetu i neprestanim ulaganjem u znanje i talentovane ljude omogucava nam da ispunimo i najzahtevnije potrebe nasih klijenata.",
+    "orangeSectionTitle": "Dobrodošli",
+    "orangeSectionText": "Vaša pouzdana veza iz Srbije ka Evropskoj uniji i svetu. Osnovna delatnost naše kompanije je proizvodnja stolarije i distribucija robe, kao i snabdevanje velikih kompanija raznim sirovinama za proizvodnju. Naša posvećenost kvalitetu i neprestanim ulaganjem u znanje i talentovane ljude omogućava nam da ispunimo i najzahtevnije potrebe naših klijenata.",
 
     "uslugeTitle": "USLUGE",
-    "uslugeBTN": "G A L E R I J A",
+    "uslugeBTN": "Pogledajte više",
 
-    "stolarijaTitle": "STE-MI stolarija",
+    "stolarijaTitle": "Stolarija",
     "stolarijaString": [
       "Prilagodljiva stolarija visokog kvaliteta.",
       "Široka paleta proizvoda za stolarske potrebe.",
@@ -33,7 +33,7 @@
       "Isporuka širom Evropske Unije."
     ],
 
-    "metalTitle": "STE-MI metal",
+    "metalTitle": "Metal",
     "metalString": [
       "Transformacija otpada u resurse.",
       "Sekundarne sirovine visokog kvaliteta.",
@@ -41,7 +41,7 @@
       "Partnerstvo i profesionalna podrška."
     ],
 
-    "tekstilTitle": "STE-MI tekstil",
+    "tekstilTitle": "Tekstil",
     "tekstilString": [
       "Tkanine visokog kvaliteta.",
       "Standardi BSCI.",
@@ -49,7 +49,7 @@
       "Uslužna proizvodnja odeće."
     ],
 
-    "drvoTitle": "STE-MI drvo",
+    "drvoTitle": "Drvo",
     "drvoSring": [
       "Rezana građa s FSC sertifikatom.",
       "Održivost i biodiverzitet.",
@@ -57,7 +57,7 @@
       "Tradicija i inovacija"
     ],
 
-    "kamenTitle": "STE-MI kamen",
+    "kamenTitle": "Kamen",
     "kamenSring": [
       "Visokokvalitetni kamen i granit",
       "Pristup najboljim sirovinama u EU.",
@@ -65,13 +65,7 @@
       "Partnerstvo sa rudnicima"
     ],
 
-    "commentsTitle": "Rekli su o nama",
-    "helenaComment": "Za nas arhitektonski biro trazili smo proizvodjaca stolarije sa sertifikatima za izvoz, po preporuci kolega kontaktirali smo kompaniju STE-MI INTERNATIONAL. Naisli smo na veoma profesionalan tim pun znanja I dugogodisnjeg iskustva. Saradnja na najvisem nivou. Proizvod kvalitetan,velika brzina isporuke. Nastavljamo dalje!",
-    "johanComment": "Za nas arhitektonski biro trazili smo proizvodjaca stolarije sa sertifikatima za izvoz, po preporuci kolega kontaktirali smo kompaniju STE-MI INTERNATIONAL. Naisli smo na veoma profesionalan tim pun znanja I dugogodisnjeg iskustva. Saradnja na najvisem nivou. Proizvod kvalitetan,velika brzina isporuke. Nastavljamo dalje!",
-    "draganComment": "Kompanija je isporucila rezanu gradju u jako kratkom roku. U petak sam porucio u ponedeljak je stigla u moj distributivni centar. Veoma profesionalan tim, nastavljamo saradnju.",
-
-    "footerTitle": "Konektujte se sa nama putem drustvenih mreza:",
-    "footerSlogan": " Stalne promene na tržištu nas motivišu da budemo bolji"
+    "footerTitle": "Partneri sa kojima sarađujemo:"
   },
 
   "eng": {
@@ -79,11 +73,11 @@
     "navAbout": "About Us",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "STE-MI Joinery",
-    "navMetal": "STE-MI Metal",
-    "navTekstil": "STE-MI Textile",
-    "navDrvo": "STE-MI Wood",
-    "navKamen": "STE-MI Stone",
+    "navStolarija": "Joinery",
+    "navMetal": "Metal",
+    "navTekstil": "Textile",
+    "navDrvo": "Wood",
+    "navKamen": "Stone",
 
     "welcomeSection": "Decades of experience in partnering with customers from Europe and Africa, precision, reliability, and excellent service are what sets us apart. Equipped with these factors and knowledge, we are perfectly prepared for global trade.",
     "aboutUsTitle": "Why Choose Us?",
@@ -94,25 +88,25 @@
     "aboutUsInovText": "solutions tailored to your specific needs. Our dedication to researching the latest technologies and trends ensures that your project stays up-to-date and enhances your business. The team of experts that makes up our company has a creative approach to problem-solving. We believe in creating unique and innovative solutions that will set you apart and contribute to your success in the market.",
     "aboutUsPriceTitle": "Price",
     "aboutUsPriceText": "is clear and fair. There are no hidden costs or unpleasant surprises. We believe in transparency to build trust with our clients. We provide value for your investment. We understand that each project has its budget. We work with you to tailor our services to your financial capabilities while delivering high-quality services without compromise.",
-    "orangeSectionTitle": "Welcome to STE-MI INTERNATIONAL",
+    "orangeSectionTitle": "Welcome",
     "orangeSectionText": "Your reliable link from Serbia to the European Union and the world. Our company's core business is joinery production and distribution of goods, as well as supplying large companies with various raw materials for production. Our dedication to quality and continuous investment in knowledge and talented people allow us to meet even the most demanding needs of our clients.",
     "uslugeTitle": "Services",
-    "uslugeBTN": "G A L L E R Y",
-    "stolarijaTitle": "STE-MI Joinery",
+    "uslugeBTN": "See more",
+    "stolarijaTitle": "Joinery",
     "stolarijaString": [
       "High-quality customizable joinery.",
       "A wide range of products for joinery needs.",
       "Use of European materials.",
       "Delivery throughout the European Union."
     ],
-    "metalTitle": "STE-MI Metal",
+    "metalTitle": "Metal",
     "metalString": [
       "Transforming waste into resources.",
       "High-quality secondary raw materials.",
       "Sustainable business and environmental impact.",
       "Partnership and professional support."
     ],
-    "tekstilTitle": "STE-MI Textile",
+    "tekstilTitle": "Textile",
     "tekstilString": [
       "High-quality textiles.",
       "BSCI standards.",
@@ -120,7 +114,7 @@
       "Custom clothing production services."
     ],
 
-    "drvoTitle": "STE-MI Wood",
+    "drvoTitle": "Wood",
     "drvoSring": [
       "Sawn timber with FSC certification.",
       "Sustainability and biodiversity.",
@@ -128,7 +122,7 @@
       "Tradition and innovation."
     ],
 
-    "kamenTitle": "STE-MI Stone",
+    "kamenTitle": "Stone",
     "kamenSring": [
       "High-Quality Stone and Granite",
       "Access to the Best Raw Materials in the EU",
@@ -136,12 +130,7 @@
       "Partnership with Quarries"
     ],
 
-    "commentsTitle": "What They Say About Us",
-    "helenaComment": "For our architectural firm, we were looking for a joinery manufacturer with export certificates. Based on colleagues' recommendations, we contacted the STE-MI INTERNATIONAL company. We encountered a highly professional team with extensive knowledge and experience. Collaboration at the highest level. The product is of high quality, and the delivery speed is impressive. We are continuing!",
-    "johanComment": "For our architectural firm, we were looking for a joinery manufacturer with export certificates. Based on colleagues' recommendations, we contacted the STE-MI INTERNATIONAL company. We encountered a highly professional team with extensive knowledge and experience. Collaboration at the highest level. The product is of high quality, and the delivery speed is impressive. We are continuing!",
-    "draganComment": "The company delivered sawn timber in a very short time. I ordered on Friday, and it arrived at my distribution center on Monday. A very professional team, and we are continuing the collaboration.",
-    "footerTitle": "Connect with us on social media:",
-    "footerSlogan": "Constant changes in the market motivate us to be better."
+    "footerTitle": "Partner companies we collaborate with:"
   },
 
   "ger": {
@@ -149,11 +138,11 @@
     "navAbout": "Über uns",
     "navKontakt": "Kontakt",
     "navDivizije": "Abteilungen",
-    "navStolarija": "STE-MI Schreinerei",
-    "navMetal": "STE-MI Metall",
-    "navTekstil": "STE-MI Textil",
-    "navDrvo": "STE-MI Holz",
-    "navKamen": "STE-MI Stein",
+    "navStolarija": "Schreinerei",
+    "navMetal": "Metall",
+    "navTekstil": "Textil",
+    "navDrvo": "Holz",
+    "navKamen": "Stein",
 
     "welcomeSection": "Jahrzehnte lange Erfahrung in der Zusammenarbeit mit Kunden aus Europa und Afrika, Präzision, Zuverlässigkeit und exzellenter Service sind das, was uns auszeichnet. Ausgestattet mit diesen Faktoren und Wissen sind wir perfekt auf den globalen Handel vorbereitet.",
     "aboutUsTitle": "Warum uns wählen?",
@@ -164,32 +153,32 @@
     "aboutUsInovText": "Lösungen, die auf Ihre speziellen Bedürfnisse zugeschnitten sind. Unser Engagement für die Erforschung der neuesten Technologien und Trends stellt sicher, dass Ihr Projekt auf dem neuesten Stand bleibt und Ihr Geschäft verbessert. Das Expertenteam, das unser Unternehmen ausmacht, hat einen kreativen Ansatz zur Problemlösung. Wir glauben an die Schaffung einzigartiger und innovativer Lösungen, die Sie herausragen lassen und zum Erfolg auf dem Markt beitragen werden.",
     "aboutUsPriceTitle": "Preis",
     "aboutUsPriceText": "ist klar und fair. Es gibt keine versteckten Kosten oder unangenehme Überraschungen. Wir glauben an Transparenz, um Vertrauen bei unseren Kunden aufzubauen. Wir bieten Wert für Ihr Investment. Wir verstehen, dass jedes Projekt ein Budget hat. Wir arbeiten mit Ihnen zusammen, um unsere Dienstleistungen an Ihre finanziellen Möglichkeiten anzupassen und gleichzeitig hochwertige Dienstleistungen ohne Kompromisse zu liefern.",
-    "orangeSectionTitle": "Willkommen bei STE-MI INTERNATIONAL",
+    "orangeSectionTitle": "Willkommen",
     "orangeSectionText": "Ihre zuverlässige Verbindung von Serbien zur Europäischen Union und zur Welt. Das Kerngeschäft unseres Unternehmens ist die Schreinereiproduktion und der Vertrieb von Waren sowie die Lieferung von Rohstoffen für die Produktion großer Unternehmen. Unser Engagement für Qualität und kontinuierliche Investitionen in Wissen und talentierte Mitarbeiter ermöglichen es uns, selbst den anspruchsvollsten Bedürfnissen unserer Kunden gerecht zu werden.",
     "uslugeTitle": "Dienstleistungen",
-    "uslugeBTN": "G A L E R I E",
-    "stolarijaTitle": "STE-MI Schreinerei",
+    "uslugeBTN": "Schau mehr",
+    "stolarijaTitle": "Schreinerei",
     "stolarijaString": [
       "Hochwertige anpassbare Schreinerei.",
       "Eine breite Palette von Produkten für Schreinereibedarf.",
       "Verwendung von europäischen Materialien.",
       "Lieferung in die gesamte Europäische Union."
     ],
-    "metalTitle": "STE-MI Metall",
+    "metalTitle": "Metall",
     "metalString": [
       "Umwandlung von Abfall in Ressourcen.",
       "Hochwertige Sekundärrohstoffe.",
       "Nachhaltiges Geschäft und Umweltauswirkungen.",
       "Partnerschaft und professionelle Unterstützung."
     ],
-    "tekstilTitle": "STE-MI Textil",
+    "tekstilTitle": "Textil",
     "tekstilString": [
       "Hochwertige Textilien.",
       "BSCI-Standards.",
       "Ethik und nachhaltiges Geschäft.",
       "Kundenspezifische Bekleidungsproduktion."
     ],
-    "drvoTitle": "STE-MI Holz",
+    "drvoTitle": "Holz",
     "drvoSring": [
       "Sägerohstoff mit FSC-Zertifizierung.",
       "Nachhaltigkeit und Artenvielfalt.",
@@ -197,7 +186,7 @@
       "Tradition und Innovation."
     ],
 
-    "kamenTitle": "STE-MI Stein",
+    "kamenTitle": "Stein",
     "kamenSring": [
       "Hochwertiger Stein und Granit",
       "Zugang zu den besten Rohstoffen in der EU",
@@ -205,12 +194,7 @@
       "Partnerschaft mit Steinbrüchen"
     ],
 
-    "commentsTitle": "Was sie über uns sagen",
-    "helenaComment": "Für unser Architekturbüro haben wir einen Schreinereihersteller mit Exportzertifikaten gesucht. Aufgrund von Empfehlungen von Kollegen haben wir das Unternehmen STE-MI INTERNATIONAL kontaktiert. Wir trafen auf ein hochprofessionelles Team mit umfangreichem Wissen und Erfahrung. Die Zusammenarbeit auf höchstem Niveau. Das Produkt ist von hoher Qualität, und die Liefergeschwindigkeit ist beeindruckend. Wir setzen die Zusammenarbeit fort!",
-    "johanComment": "Für unser Architekturbüro haben wir einen Schreinereihersteller mit Exportzertifikaten gesucht. Aufgrund von Empfehlungen von Kollegen haben wir das Unternehmen STE-MI INTERNATIONAL kontaktiert. Wir trafen auf ein hochprofessionelles Team mit umfangreichem Wissen und Erfahrung. Die Zusammenarbeit auf höchstem Niveau. Das Produkt ist von hoher Qualität, und die Liefergeschwindigkeit ist beeindruckend. Wir setzen die Zusammenarbeit fort!",
-    "draganComment": "Das Unternehmen hat Sägerohstoff in sehr kurzer Zeit geliefert. Ich habe am Freitag bestellt, und am Montag kam es in meinem Verteilungszentrum an. Ein sehr professionelles Team, und wir setzen die Zusammenarbeit fort.",
-    "footerTitle": "Verbinden Sie sich mit uns in sozialen Medien:",
-    "footerSlogan": "Ständige Veränderungen auf dem Markt motivieren uns, besser zu sein."
+    "footerTitle": "Partnerunternehmen, mit denen wir zusammenarbeiten:"
   },
 
   "fr": {
@@ -218,11 +202,11 @@
     "navAbout": "À propos de nous",
     "navKontakt": "Contact",
     "navDivizije": "Divisions",
-    "navStolarija": "Menuiserie STE-MI",
-    "navMetal": "Métal STE-MI",
-    "navTekstil": "Textile STE-MI",
-    "navDrvo": "Bois STE-MI",
-    "navKamen": "STE-MI Pierre",
+    "navStolarija": "Menuiserie",
+    "navMetal": "Métal",
+    "navTekstil": "Textile",
+    "navDrvo": "Bois",
+    "navKamen": "Pierre",
 
     "welcomeSection": "Des décennies d'expérience dans le partenariat avec des clients d'Europe et d'Afrique, la précision, la fiabilité et un excellent service sont ce qui nous distingue. Équipés de ces facteurs et de connaissances, nous sommes parfaitement préparés pour le commerce mondial.",
     "aboutUsTitle": "Pourquoi nous choisir ?",
@@ -233,32 +217,32 @@
     "aboutUsInovText": "solutions adaptées à vos besoins spécifiques. Notre engagement à rechercher les dernières technologies et tendances garantit que votre projet reste à jour et améliore votre entreprise. L'équipe d'experts qui compose notre entreprise a une approche créative de la résolution des problèmes. Nous croyons en la création de solutions uniques et innovantes qui vous démarqueront et contribueront à votre succès sur le marché.",
     "aboutUsPriceTitle": "Prix",
     "aboutUsPriceText": "est clair et équitable. Il n'y a pas de coûts cachés ni de mauvaises surprises. Nous croyons en la transparence pour établir la confiance avec nos clients. Nous offrons de la valeur pour votre investissement. Nous comprenons que chaque projet a un budget. Nous travaillons avec vous pour adapter nos services à vos capacités financières tout en fournissant des services de haute qualité sans compromis.",
-    "orangeSectionTitle": "Bienvenue chez STE-MI INTERNATIONAL",
+    "orangeSectionTitle": "Bienvenue",
     "orangeSectionText": "Votre lien fiable de la Serbie vers l'Union européenne et le monde. Notre cœur de métier est la production de menuiserie et la distribution de marchandises, ainsi que l'approvisionnement en matières premières pour la production de grandes entreprises. Notre engagement envers la qualité et les investissements continus dans la connaissance et les personnes talentueuses nous permettent de répondre aux besoins les plus exigeants de nos clients.",
     "uslugeTitle": "Services",
-    "uslugeBTN": "G A L E R I E",
-    "stolarijaTitle": "Menuiserie STE-MI",
+    "uslugeBTN": "Voir plus",
+    "stolarijaTitle": "Menuiserie",
     "stolarijaString": [
       "Menuiserie de haute qualité personnalisable.",
       "Une large gamme de produits pour les besoins en menuiserie.",
       "Utilisation de matériaux européens.",
       "Livraison dans toute l'Union européenne."
     ],
-    "metalTitle": "Métal STE-MI",
+    "metalTitle": "Métal",
     "metalString": [
       "Transformation des déchets en ressources.",
       "Des matières premières secondaires de haute qualité.",
       "Activité durable et impact environnemental.",
       "Partenariat et soutien professionnel."
     ],
-    "tekstilTitle": "Textile STE-MI",
+    "tekstilTitle": "Textile",
     "tekstilString": [
       "Textiles de haute qualité.",
       "Normes BSCI.",
       "Éthique et développement durable.",
       "Services de production de vêtements sur mesure."
     ],
-    "drvoTitle": "Bois STE-MI",
+    "drvoTitle": "Bois",
     "drvoSring": [
       "Bois scié avec certification FSC.",
       "Durabilité et biodiversité.",
@@ -266,7 +250,7 @@
       "Tradition et innovation."
     ],
 
-    "kamenTitle": "STE-MI Pierre",
+    "kamenTitle": "Pierre",
     "kamenSring": [
       "Pierre et granit de haute qualité",
       "Accès aux meilleures matières premières de l'UE",
@@ -274,11 +258,6 @@
       "Partenariat avec les carrières"
     ],
 
-    "commentsTitle": "Ce qu'ils disent de nous",
-    "helenaComment": "Pour notre cabinet d'architectes, nous recherchions un fabricant de menuiserie avec des certificats d'exportation. Sur la recommandation de collègues, nous avons contacté la société STE-MI INTERNATIONAL. Nous avons rencontré une équipe très professionnelle avec une connaissance approfondie et de l'expérience. La collaboration est au plus haut niveau. Le produit est de haute qualité, et la rapidité de livraison est impressionnante. Nous continuons !",
-    "johanComment": "Pour notre cabinet d'architectes, nous recherchions un fabricant de menuiserie avec des certificats d'exportation. Sur la recommandation de collègues, nous avons contacté la société STE-MI INTERNATIONAL. Nous avons rencontré une équipe très professionnelle avec une connaissance approfondie et de l'expérience. La collaboration est au plus haut niveau. Le produit est de haute qualité, et la rapidité de livraison est impressionnante. Nous continuons !",
-    "draganComment": "La société a livré du bois scié en très peu de temps. J'ai passé commande le vendredi, et elle est arrivée à mon centre de distribution le lundi. Une équipe très professionnelle, et nous poursuivons la collaboration.",
-    "footerTitle": "Connectez-vous avec nous sur les médias sociaux :",
-    "footerSlogan": "Les changements constants sur le marché nous motivent à être meilleurs."
+    "footerTitle": "Entreprises partenaires avec lesquelles nous collaborons :"
   }
 }
