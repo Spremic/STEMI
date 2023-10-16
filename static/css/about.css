@@ -454,9 +454,9 @@
 }
 
 .references-img img {
-  width: 1200px;
+  width: 900px;
   height: 500px;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 footer {
@@ -471,7 +471,7 @@ footer {
     width: 45%;
   }
   .references-img img {
-    width: 1000px;
+    width: 800px;
     height: 450px;
     border-radius: 12px;
   }
